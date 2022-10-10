@@ -1,5 +1,5 @@
 Fitter report for Savarankiskas
-Mon Oct 10 21:31:13 2022
+Mon Oct 10 22:37:57 2022
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -68,7 +68,7 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Fitter Summary                                                                  ;
 +-----------------------------------+---------------------------------------------+
-; Fitter Status                     ; Successful - Mon Oct 10 21:31:13 2022       ;
+; Fitter Status                     ; Successful - Mon Oct 10 22:37:57 2022       ;
 ; Quartus Prime Version             ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                     ; Savarankiskas                               ;
 ; Top-level Entity Name             ; I2CSlaveController                          ;
@@ -414,14 +414,14 @@ The pin-out file can be found in C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKo
 +-------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 ; Name        ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Location assigned by ; Output Enable Source ; Output Enable Group ;
 +-------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
-; Data_out[0] ; Y6    ; 4A       ; 30           ; 0            ; 62           ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; Data_out[0] ; Y5    ; 4A       ; 32           ; 0            ; 62           ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; Data_out[1] ; W7    ; 4A       ; 29           ; 0            ; 0            ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; Data_out[2] ; U7    ; 4A       ; 30           ; 0            ; 31           ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; Data_out[3] ; Y7    ; 4A       ; 29           ; 0            ; 62           ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; Data_out[4] ; W6    ; 4A       ; 30           ; 0            ; 0            ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; Data_out[5] ; Y5    ; 4A       ; 32           ; 0            ; 62           ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; Data_out[5] ; V7    ; 4A       ; 30           ; 0            ; 93           ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; Data_out[6] ; V10   ; 4A       ; 29           ; 0            ; 93           ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; Data_out[7] ; V7    ; 4A       ; 30           ; 0            ; 93           ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; Data_out[7] ; Y6    ; 4A       ; 30           ; 0            ; 62           ; no              ; no                     ; no            ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 +-------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -774,7 +774,7 @@ The pin-out file can be found in C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKo
 ; V4       ; 140        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP            ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; V5       ; 139        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP            ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; V6       ; 137        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP            ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; V7       ; 109        ; 4A       ; Data_out[7]                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; V7       ; 109        ; 4A       ; Data_out[5]                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; V8       ; 117        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP            ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; V9       ; 107        ; 4A       ; SDA                                        ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; V10      ; 105        ; 4A       ; Data_out[6]                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -812,8 +812,8 @@ The pin-out file can be found in C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKo
 ; Y2       ; 115        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP            ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y3       ; 113        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP            ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y4       ; 116        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP            ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; Y5       ; 114        ; 4A       ; Data_out[5]                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; Y6       ; 110        ; 4A       ; Data_out[0]                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; Y5       ; 114        ; 4A       ; Data_out[0]                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; Y6       ; 110        ; 4A       ; Data_out[7]                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; Y7       ; 106        ; 4A       ; Data_out[3]                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; Y8       ; 102        ; 4A       ; GND+                                       ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; Y9       ; 66         ; 3A       ; RESERVED_INPUT_WITH_WEAK_PULLUP            ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -913,7 +913,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; Name     ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +----------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
-; Equal0~6 ; LABCELL_X27_Y1_N24 ; 32      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; Equal0~6 ; LABCELL_X27_Y1_N30 ; 32      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
 ; SCL      ; PIN_T10            ; 40      ; Clock        ; yes    ; Global Clock         ; GCLK7            ; --                        ;
 ; SDA      ; PIN_V9             ; 9       ; Clock        ; no     ; --                   ; --               ; --                        ;
 ; start    ; FF_X26_Y1_N17      ; 41      ; Clock enable ; no     ; --                   ; --               ; --                        ;
@@ -925,7 +925,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 ; Name ; Location ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; SCL  ; PIN_T10  ; 40      ; 16                                   ; Global Clock         ; GCLK7            ; --                        ;
+; SCL  ; PIN_T10  ; 40      ; 27                                   ; Global Clock         ; GCLK7            ; --                        ;
 +------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
@@ -934,7 +934,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------+------------------------+
 ; Routing Resource Type             ; Usage                  ;
 +-----------------------------------+------------------------+
-; Block interconnects               ; 58 / 213,100 ( < 1 % ) ;
+; Block interconnects               ; 57 / 213,100 ( < 1 % ) ;
 ; C12 interconnects                 ; 3 / 7,906 ( < 1 % )    ;
 ; C4 interconnects                  ; 32 / 139,240 ( < 1 % ) ;
 ; DIFFIOCLKs                        ; 0 / 8 ( 0 % )          ;
@@ -943,7 +943,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; DQS-36 I/O buses                  ; 0 / 3 ( 0 % )          ;
 ; DQS-9 I/O buses                   ; 0 / 21 ( 0 % )         ;
 ; DQS-N18 I/O buses                 ; 0 / 4 ( 0 % )          ;
-; Direct links                      ; 20 / 213,100 ( < 1 % ) ;
+; Direct links                      ; 16 / 213,100 ( < 1 % ) ;
 ; Global clocks                     ; 1 / 16 ( 6 % )         ;
 ; HSSI Block Output Buffers         ; 0 / 3,905 ( 0 % )      ;
 ; Interquad CMU TXRX PMARX outputs  ; 0 / 4 ( 0 % )          ;
@@ -962,7 +962,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Interquad TXRX PCSTX outputs      ; 0 / 8 ( 0 % )          ;
 ; Interquad TXRX PMARX outputs      ; 0 / 8 ( 0 % )          ;
 ; Interquad TXRX PMATX outputs      ; 0 / 8 ( 0 % )          ;
-; Local interconnects               ; 19 / 50,600 ( < 1 % )  ;
+; Local interconnects               ; 21 / 50,600 ( < 1 % )  ;
 ; NDQS bus muxes                    ; 0 / 42 ( 0 % )         ;
 ; NDQS-18 I/O buses                 ; 0 / 9 ( 0 % )          ;
 ; NDQS-36 I/O buses                 ; 0 / 3 ( 0 % )          ;
@@ -974,7 +974,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Quadrant clocks                   ; 0 / 48 ( 0 % )         ;
 ; R20 interconnects                 ; 0 / 8,690 ( 0 % )      ;
 ; R20/C12 interconnect drivers      ; 1 / 12,980 ( < 1 % )   ;
-; R4 interconnects                  ; 18 / 235,620 ( < 1 % ) ;
+; R4 interconnects                  ; 22 / 235,620 ( < 1 % ) ;
 ; Spine clocks                      ; 1 / 104 ( < 1 % )      ;
 +-----------------------------------+------------------------+
 
@@ -1231,10 +1231,10 @@ Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node SCL~input (placed in PIN T10 (CLK6, DIFFCLK_0p)) File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd Line: 13
+Info (176353): Automatically promoted node SCL~input (placed in PIN T10 (CLK6, DIFFCLK_0p)) File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd Line: 14
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G7
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node start~0 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd Line: 19
+        Info (176357): Destination node start~0 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd Line: 24
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
@@ -1271,13 +1271,13 @@ Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/output_files/Savarankiskas.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 6314 megabytes
-    Info: Processing ended: Mon Oct 10 21:31:13 2022
+    Info: Peak virtual memory: 6302 megabytes
+    Info: Processing ended: Mon Oct 10 22:37:57 2022
     Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:16
+    Info: Total CPU time (on all processors): 00:00:14
 
 
 +----------------------------+

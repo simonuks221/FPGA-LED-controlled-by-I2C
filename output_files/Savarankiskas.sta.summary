@@ -3,59 +3,59 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 900mV 100C Model Setup 'SCL'
-Slack : -1.403
-TNS   : -44.513
+Slack : -1.528
+TNS   : -48.713
 
 Type  : Slow 900mV 100C Model Setup 'SDA'
-Slack : -0.959
-TNS   : -0.959
+Slack : -0.954
+TNS   : -0.954
 
 Type  : Slow 900mV 100C Model Hold 'SCL'
 Slack : 0.325
 TNS   : 0.000
 
 Type  : Slow 900mV 100C Model Hold 'SDA'
-Slack : 0.821
+Slack : 0.873
 TNS   : 0.000
 
 Type  : Slow 900mV 100C Model Minimum Pulse Width 'SCL'
 Slack : -2.846
-TNS   : -66.885
+TNS   : -66.864
 
 Type  : Slow 900mV 100C Model Minimum Pulse Width 'SDA'
 Slack : -2.846
-TNS   : -4.453
+TNS   : -4.454
 
 Type  : Slow 900mV -40C Model Setup 'SCL'
-Slack : -1.329
-TNS   : -40.869
+Slack : -1.432
+TNS   : -44.360
 
 Type  : Slow 900mV -40C Model Setup 'SDA'
-Slack : -0.902
-TNS   : -0.902
+Slack : -0.883
+TNS   : -0.883
 
 Type  : Slow 900mV -40C Model Hold 'SCL'
 Slack : 0.315
 TNS   : 0.000
 
 Type  : Slow 900mV -40C Model Hold 'SDA'
-Slack : 0.661
+Slack : 0.699
 TNS   : 0.000
 
 Type  : Slow 900mV -40C Model Minimum Pulse Width 'SCL'
 Slack : -2.846
-TNS   : -66.926
+TNS   : -66.901
 
 Type  : Slow 900mV -40C Model Minimum Pulse Width 'SDA'
 Slack : -2.846
-TNS   : -4.448
+TNS   : -4.449
 
 Type  : Fast 900mV -40C Model Setup 'SCL'
-Slack : -0.471
-TNS   : -13.558
+Slack : -0.456
+TNS   : -13.116
 
 Type  : Fast 900mV -40C Model Setup 'SDA'
-Slack : 0.066
+Slack : 0.073
 TNS   : 0.000
 
 Type  : Fast 900mV -40C Model Hold 'SCL'
@@ -63,12 +63,12 @@ Slack : 0.157
 TNS   : 0.000
 
 Type  : Fast 900mV -40C Model Hold 'SDA'
-Slack : 0.420
+Slack : 0.444
 TNS   : 0.000
 
 Type  : Fast 900mV -40C Model Minimum Pulse Width 'SCL'
 Slack : -2.846
-TNS   : -29.661
+TNS   : -29.668
 
 Type  : Fast 900mV -40C Model Minimum Pulse Width 'SDA'
 Slack : -2.846

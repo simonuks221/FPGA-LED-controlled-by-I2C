@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition"
 
--- DATE "10/10/2022 21:31:21"
+-- DATE "10/10/2022 22:38:04"
 
 -- 
 -- Device: Altera EP2AGX45CU17I3 Package UFBGA358
@@ -43,14 +43,14 @@ ENTITY 	I2CSlaveController IS
 END I2CSlaveController;
 
 -- Design Ports Information
--- Data_out[0]	=>  Location: PIN_Y6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Data_out[0]	=>  Location: PIN_Y5,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- Data_out[1]	=>  Location: PIN_W7,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- Data_out[2]	=>  Location: PIN_U7,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- Data_out[3]	=>  Location: PIN_Y7,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- Data_out[4]	=>  Location: PIN_W6,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- Data_out[5]	=>  Location: PIN_Y5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Data_out[5]	=>  Location: PIN_V7,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- Data_out[6]	=>  Location: PIN_V10,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- Data_out[7]	=>  Location: PIN_V7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Data_out[7]	=>  Location: PIN_Y6,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- SDA	=>  Location: PIN_V9,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- SCL	=>  Location: PIN_T10,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
@@ -79,15 +79,12 @@ SIGNAL \Data_out[7]~output_o\ : std_logic;
 SIGNAL \SCL~input_o\ : std_logic;
 SIGNAL \SCL~inputclkctrl_outclk\ : std_logic;
 SIGNAL \Add0~1_sumout\ : std_logic;
-SIGNAL \Equal0~0_combout\ : std_logic;
-SIGNAL \Add0~6\ : std_logic;
-SIGNAL \Add0~9_sumout\ : std_logic;
+SIGNAL \Add0~10\ : std_logic;
+SIGNAL \Add0~13_sumout\ : std_logic;
 SIGNAL \SDA~input_o\ : std_logic;
 SIGNAL \start~0_combout\ : std_logic;
 SIGNAL \start~feeder_combout\ : std_logic;
 SIGNAL \start~q\ : std_logic;
-SIGNAL \Add0~10\ : std_logic;
-SIGNAL \Add0~13_sumout\ : std_logic;
 SIGNAL \Add0~14\ : std_logic;
 SIGNAL \Add0~17_sumout\ : std_logic;
 SIGNAL \Add0~18\ : std_logic;
@@ -122,6 +119,7 @@ SIGNAL \Add0~74\ : std_logic;
 SIGNAL \Add0~77_sumout\ : std_logic;
 SIGNAL \Add0~78\ : std_logic;
 SIGNAL \Add0~81_sumout\ : std_logic;
+SIGNAL \Equal0~3_combout\ : std_logic;
 SIGNAL \Add0~82\ : std_logic;
 SIGNAL \Add0~85_sumout\ : std_logic;
 SIGNAL \Add0~86\ : std_logic;
@@ -135,7 +133,7 @@ SIGNAL \Add0~101_sumout\ : std_logic;
 SIGNAL \Add0~102\ : std_logic;
 SIGNAL \Add0~105_sumout\ : std_logic;
 SIGNAL \Equal0~2_combout\ : std_logic;
-SIGNAL \Equal0~3_combout\ : std_logic;
+SIGNAL \Equal0~5_combout\ : std_logic;
 SIGNAL \Add0~106\ : std_logic;
 SIGNAL \Add0~109_sumout\ : std_logic;
 SIGNAL \Add0~110\ : std_logic;
@@ -148,11 +146,13 @@ SIGNAL \Add0~122\ : std_logic;
 SIGNAL \Add0~125_sumout\ : std_logic;
 SIGNAL \Equal0~1_combout\ : std_logic;
 SIGNAL \Equal0~4_combout\ : std_logic;
-SIGNAL \Equal0~5_combout\ : std_logic;
+SIGNAL \Equal0~0_combout\ : std_logic;
 SIGNAL \Equal0~6_combout\ : std_logic;
 SIGNAL \Add0~2\ : std_logic;
 SIGNAL \Add0~5_sumout\ : std_logic;
 SIGNAL \dataIndex[1]~feeder_combout\ : std_logic;
+SIGNAL \Add0~6\ : std_logic;
+SIGNAL \Add0~9_sumout\ : std_logic;
 SIGNAL \data[0]~0_combout\ : std_logic;
 SIGNAL \data[1]~1_combout\ : std_logic;
 SIGNAL \data[2]~2_combout\ : std_logic;
@@ -237,7 +237,7 @@ ALT_INV_dataIndex(1) <= NOT dataIndex(1);
 ALT_INV_dataIndex(2) <= NOT dataIndex(2);
 ALT_INV_dataIndex(0) <= NOT dataIndex(0);
 
--- Location: IOOBUF_X30_Y0_N67
+-- Location: IOOBUF_X32_Y0_N67
 \Data_out[0]~output\ : arriaii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -297,7 +297,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \Data_out[4]~output_o\);
 
--- Location: IOOBUF_X32_Y0_N67
+-- Location: IOOBUF_X30_Y0_N98
 \Data_out[5]~output\ : arriaii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -321,7 +321,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \Data_out[6]~output_o\);
 
--- Location: IOOBUF_X30_Y0_N98
+-- Location: IOOBUF_X30_Y0_N67
 \Data_out[7]~output\ : arriaii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -375,40 +375,6 @@ PORT MAP (
 	sumout => \Add0~1_sumout\,
 	cout => \Add0~2\);
 
--- Location: MLABCELL_X26_Y1_N8
-\Equal0~0\ : arriaii_lcell_comb
--- Equation(s):
--- \Equal0~0_combout\ = ( dataIndex(1) & ( !dataIndex(0) ) )
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000000000000000111111110000000000000000000000001111111100000000",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	datad => ALT_INV_dataIndex(0),
-	datae => ALT_INV_dataIndex(1),
-	combout => \Equal0~0_combout\);
-
--- Location: LABCELL_X27_Y2_N2
-\Add0~5\ : arriaii_lcell_comb
--- Equation(s):
--- \Add0~5_sumout\ = SUM(( dataIndex(1) ) + ( GND ) + ( \Add0~2\ ))
--- \Add0~6\ = CARRY(( dataIndex(1) ) + ( GND ) + ( \Add0~2\ ))
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	datad => ALT_INV_dataIndex(1),
-	cin => \Add0~2\,
-	sumout => \Add0~5_sumout\,
-	cout => \Add0~6\);
-
 -- Location: LABCELL_X27_Y2_N4
 \Add0~9\ : arriaii_lcell_comb
 -- Equation(s):
@@ -426,6 +392,24 @@ PORT MAP (
 	cin => \Add0~6\,
 	sumout => \Add0~9_sumout\,
 	cout => \Add0~10\);
+
+-- Location: LABCELL_X27_Y2_N6
+\Add0~13\ : arriaii_lcell_comb
+-- Equation(s):
+-- \Add0~13_sumout\ = SUM(( dataIndex(3) ) + ( GND ) + ( \Add0~10\ ))
+-- \Add0~14\ = CARRY(( dataIndex(3) ) + ( GND ) + ( \Add0~10\ ))
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	datad => ALT_INV_dataIndex(3),
+	cin => \Add0~10\,
+	sumout => \Add0~13_sumout\,
+	cout => \Add0~14\);
 
 -- Location: IOIBUF_X29_Y0_N32
 \SDA~input\ : arriaii_io_ibuf
@@ -446,11 +430,11 @@ PORT MAP (
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000011111111000000001111111111111111111111111111111111111111",
+	lut_mask => "0000111100001111000011110000111111111111111111111111111111111111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => \ALT_INV_SCL~input_o\,
+	datac => \ALT_INV_SCL~input_o\,
 	dataf => \ALT_INV_start~q\,
 	combout => \start~0_combout\);
 
@@ -482,40 +466,6 @@ PORT MAP (
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \start~q\);
-
--- Location: FF_X27_Y2_N5
-\dataIndex[2]\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \SCL~inputclkctrl_outclk\,
-	d => \Add0~9_sumout\,
-	sclr => \Equal0~6_combout\,
-	ena => \start~q\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => dataIndex(2));
-
--- Location: LABCELL_X27_Y2_N6
-\Add0~13\ : arriaii_lcell_comb
--- Equation(s):
--- \Add0~13_sumout\ = SUM(( dataIndex(3) ) + ( GND ) + ( \Add0~10\ ))
--- \Add0~14\ = CARRY(( dataIndex(3) ) + ( GND ) + ( \Add0~10\ ))
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	datad => ALT_INV_dataIndex(3),
-	cin => \Add0~10\,
-	sumout => \Add0~13_sumout\,
-	cout => \Add0~14\);
 
 -- Location: FF_X27_Y2_N7
 \dataIndex[3]\ : dffeas
@@ -925,7 +875,7 @@ PORT MAP (
 	sumout => \Add0~61_sumout\,
 	cout => \Add0~62\);
 
--- Location: FF_X27_Y1_N31
+-- Location: FF_X27_Y1_N37
 \dataIndex[15]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -960,7 +910,7 @@ PORT MAP (
 	sumout => \Add0~65_sumout\,
 	cout => \Add0~66\);
 
--- Location: FF_X27_Y1_N27
+-- Location: FF_X27_Y1_N31
 \dataIndex[16]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -980,22 +930,22 @@ PORT MAP (
 -- Location: LABCELL_X27_Y2_N34
 \Add0~69\ : arriaii_lcell_comb
 -- Equation(s):
--- \Add0~69_sumout\ = SUM(( GND ) + ( dataIndex(17) ) + ( \Add0~66\ ))
--- \Add0~70\ = CARRY(( GND ) + ( dataIndex(17) ) + ( \Add0~66\ ))
+-- \Add0~69_sumout\ = SUM(( dataIndex(17) ) + ( GND ) + ( \Add0~66\ ))
+-- \Add0~70\ = CARRY(( dataIndex(17) ) + ( GND ) + ( \Add0~66\ ))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000111111110000000000000000000000000000000000000000",
+	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataf => ALT_INV_dataIndex(17),
+	datad => ALT_INV_dataIndex(17),
 	cin => \Add0~66\,
 	sumout => \Add0~69_sumout\,
 	cout => \Add0~70\);
 
--- Location: FF_X27_Y1_N39
+-- Location: FF_X27_Y1_N27
 \dataIndex[17]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1030,7 +980,7 @@ PORT MAP (
 	sumout => \Add0~73_sumout\,
 	cout => \Add0~74\);
 
--- Location: FF_X27_Y1_N33
+-- Location: FF_X27_Y1_N29
 \dataIndex[18]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1050,22 +1000,22 @@ PORT MAP (
 -- Location: LABCELL_X27_Y2_N38
 \Add0~77\ : arriaii_lcell_comb
 -- Equation(s):
--- \Add0~77_sumout\ = SUM(( dataIndex(19) ) + ( GND ) + ( \Add0~74\ ))
--- \Add0~78\ = CARRY(( dataIndex(19) ) + ( GND ) + ( \Add0~74\ ))
+-- \Add0~77_sumout\ = SUM(( GND ) + ( dataIndex(19) ) + ( \Add0~74\ ))
+-- \Add0~78\ = CARRY(( GND ) + ( dataIndex(19) ) + ( \Add0~74\ ))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
+	lut_mask => "0000000000000000111111110000000000000000000000000000000000000000",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datad => ALT_INV_dataIndex(19),
+	dataf => ALT_INV_dataIndex(19),
 	cin => \Add0~74\,
 	sumout => \Add0~77_sumout\,
 	cout => \Add0~78\);
 
--- Location: FF_X27_Y1_N35
+-- Location: FF_X27_Y1_N33
 \dataIndex[19]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1115,6 +1065,26 @@ PORT MAP (
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => dataIndex(20));
+
+-- Location: LABCELL_X27_Y1_N38
+\Equal0~3\ : arriaii_lcell_comb
+-- Equation(s):
+-- \Equal0~3_combout\ = ( !dataIndex(15) & ( !dataIndex(18) & ( (!dataIndex(19) & (!dataIndex(16) & (!dataIndex(17) & !dataIndex(20)))) ) ) )
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "1000000000000000000000000000000000000000000000000000000000000000",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	dataa => ALT_INV_dataIndex(19),
+	datab => ALT_INV_dataIndex(16),
+	datac => ALT_INV_dataIndex(17),
+	datad => ALT_INV_dataIndex(20),
+	datae => ALT_INV_dataIndex(15),
+	dataf => ALT_INV_dataIndex(18),
+	combout => \Equal0~3_combout\);
 
 -- Location: LABCELL_X27_Y1_N2
 \Add0~85\ : arriaii_lcell_comb
@@ -1323,7 +1293,7 @@ PORT MAP (
 -- Location: LABCELL_X27_Y1_N34
 \Equal0~2\ : arriaii_lcell_comb
 -- Equation(s):
--- \Equal0~2_combout\ = ( !dataIndex(21) & ( !dataIndex(23) & ( (!dataIndex(24) & (!dataIndex(25) & (!dataIndex(22) & !dataIndex(26)))) ) ) )
+-- \Equal0~2_combout\ = ( !dataIndex(26) & ( !dataIndex(25) & ( (!dataIndex(22) & (!dataIndex(21) & (!dataIndex(23) & !dataIndex(24)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -1332,18 +1302,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(24),
-	datab => ALT_INV_dataIndex(25),
-	datac => ALT_INV_dataIndex(22),
-	datad => ALT_INV_dataIndex(26),
-	datae => ALT_INV_dataIndex(21),
-	dataf => ALT_INV_dataIndex(23),
+	dataa => ALT_INV_dataIndex(22),
+	datab => ALT_INV_dataIndex(21),
+	datac => ALT_INV_dataIndex(23),
+	datad => ALT_INV_dataIndex(24),
+	datae => ALT_INV_dataIndex(26),
+	dataf => ALT_INV_dataIndex(25),
 	combout => \Equal0~2_combout\);
 
--- Location: LABCELL_X27_Y1_N28
-\Equal0~3\ : arriaii_lcell_comb
+-- Location: MLABCELL_X26_Y2_N14
+\Equal0~5\ : arriaii_lcell_comb
 -- Equation(s):
--- \Equal0~3_combout\ = ( !dataIndex(15) & ( !dataIndex(17) & ( (!dataIndex(18) & (!dataIndex(16) & (!dataIndex(19) & !dataIndex(20)))) ) ) )
+-- \Equal0~5_combout\ = ( !dataIndex(8) & ( !dataIndex(3) & ( (!dataIndex(6) & (!dataIndex(5) & (!dataIndex(4) & !dataIndex(7)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -1352,13 +1322,13 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(18),
-	datab => ALT_INV_dataIndex(16),
-	datac => ALT_INV_dataIndex(19),
-	datad => ALT_INV_dataIndex(20),
-	datae => ALT_INV_dataIndex(15),
-	dataf => ALT_INV_dataIndex(17),
-	combout => \Equal0~3_combout\);
+	dataa => ALT_INV_dataIndex(6),
+	datab => ALT_INV_dataIndex(5),
+	datac => ALT_INV_dataIndex(4),
+	datad => ALT_INV_dataIndex(7),
+	datae => ALT_INV_dataIndex(8),
+	dataf => ALT_INV_dataIndex(3),
+	combout => \Equal0~5_combout\);
 
 -- Location: LABCELL_X27_Y1_N14
 \Add0~109\ : arriaii_lcell_comb
@@ -1528,30 +1498,30 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => dataIndex(31));
 
--- Location: LABCELL_X27_Y1_N36
+-- Location: LABCELL_X27_Y1_N24
 \Equal0~1\ : arriaii_lcell_comb
 -- Equation(s):
--- \Equal0~1_combout\ = ( !dataIndex(29) & ( !dataIndex(31) & ( (!dataIndex(30) & (!dataIndex(27) & (dataIndex(2) & !dataIndex(28)))) ) ) )
+-- \Equal0~1_combout\ = ( dataIndex(2) & ( !dataIndex(28) & ( (!dataIndex(30) & (!dataIndex(29) & (!dataIndex(31) & !dataIndex(27)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000100000000000000000000000000000000000000000000000000000000000",
+	lut_mask => "0000000000000000100000000000000000000000000000000000000000000000",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
 	dataa => ALT_INV_dataIndex(30),
-	datab => ALT_INV_dataIndex(27),
-	datac => ALT_INV_dataIndex(2),
-	datad => ALT_INV_dataIndex(28),
-	datae => ALT_INV_dataIndex(29),
-	dataf => ALT_INV_dataIndex(31),
+	datab => ALT_INV_dataIndex(29),
+	datac => ALT_INV_dataIndex(31),
+	datad => ALT_INV_dataIndex(27),
+	datae => ALT_INV_dataIndex(2),
+	dataf => ALT_INV_dataIndex(28),
 	combout => \Equal0~1_combout\);
 
 -- Location: MLABCELL_X26_Y2_N24
 \Equal0~4\ : arriaii_lcell_comb
 -- Equation(s):
--- \Equal0~4_combout\ = ( !dataIndex(13) & ( !dataIndex(14) & ( (!dataIndex(11) & (!dataIndex(12) & (!dataIndex(9) & !dataIndex(10)))) ) ) )
+-- \Equal0~4_combout\ = ( !dataIndex(10) & ( !dataIndex(13) & ( (!dataIndex(11) & (!dataIndex(12) & (!dataIndex(9) & !dataIndex(14)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -1563,35 +1533,31 @@ PORT MAP (
 	dataa => ALT_INV_dataIndex(11),
 	datab => ALT_INV_dataIndex(12),
 	datac => ALT_INV_dataIndex(9),
-	datad => ALT_INV_dataIndex(10),
-	datae => ALT_INV_dataIndex(13),
-	dataf => ALT_INV_dataIndex(14),
+	datad => ALT_INV_dataIndex(14),
+	datae => ALT_INV_dataIndex(10),
+	dataf => ALT_INV_dataIndex(13),
 	combout => \Equal0~4_combout\);
 
--- Location: MLABCELL_X26_Y2_N14
-\Equal0~5\ : arriaii_lcell_comb
+-- Location: MLABCELL_X26_Y1_N2
+\Equal0~0\ : arriaii_lcell_comb
 -- Equation(s):
--- \Equal0~5_combout\ = ( !dataIndex(8) & ( !dataIndex(3) & ( (!dataIndex(6) & (!dataIndex(4) & (!dataIndex(5) & !dataIndex(7)))) ) ) )
+-- \Equal0~0_combout\ = ( dataIndex(1) & ( dataIndex(0) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "1000000000000000000000000000000000000000000000000000000000000000",
+	lut_mask => "0000000000000000000011110000111100000000000000000000111100001111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(6),
-	datab => ALT_INV_dataIndex(4),
-	datac => ALT_INV_dataIndex(5),
-	datad => ALT_INV_dataIndex(7),
-	datae => ALT_INV_dataIndex(8),
-	dataf => ALT_INV_dataIndex(3),
-	combout => \Equal0~5_combout\);
+	datac => ALT_INV_dataIndex(0),
+	datae => ALT_INV_dataIndex(1),
+	combout => \Equal0~0_combout\);
 
--- Location: LABCELL_X27_Y1_N24
+-- Location: LABCELL_X27_Y1_N30
 \Equal0~6\ : arriaii_lcell_comb
 -- Equation(s):
--- \Equal0~6_combout\ = ( \Equal0~4_combout\ & ( \Equal0~5_combout\ & ( (\Equal0~0_combout\ & (\Equal0~2_combout\ & (\Equal0~3_combout\ & \Equal0~1_combout\))) ) ) )
+-- \Equal0~6_combout\ = ( \Equal0~4_combout\ & ( \Equal0~0_combout\ & ( (\Equal0~3_combout\ & (\Equal0~2_combout\ & (\Equal0~5_combout\ & \Equal0~1_combout\))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -1600,12 +1566,12 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \ALT_INV_Equal0~0_combout\,
+	dataa => \ALT_INV_Equal0~3_combout\,
 	datab => \ALT_INV_Equal0~2_combout\,
-	datac => \ALT_INV_Equal0~3_combout\,
+	datac => \ALT_INV_Equal0~5_combout\,
 	datad => \ALT_INV_Equal0~1_combout\,
 	datae => \ALT_INV_Equal0~4_combout\,
-	dataf => \ALT_INV_Equal0~5_combout\,
+	dataf => \ALT_INV_Equal0~0_combout\,
 	combout => \Equal0~6_combout\);
 
 -- Location: FF_X26_Y1_N35
@@ -1624,6 +1590,24 @@ PORT MAP (
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => dataIndex(0));
+
+-- Location: LABCELL_X27_Y2_N2
+\Add0~5\ : arriaii_lcell_comb
+-- Equation(s):
+-- \Add0~5_sumout\ = SUM(( dataIndex(1) ) + ( GND ) + ( \Add0~2\ ))
+-- \Add0~6\ = CARRY(( dataIndex(1) ) + ( GND ) + ( \Add0~2\ ))
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0000000000000000111111111111111100000000000000000000000011111111",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	datad => ALT_INV_dataIndex(1),
+	cin => \Add0~2\,
+	sumout => \Add0~5_sumout\,
+	cout => \Add0~6\);
 
 -- Location: MLABCELL_X26_Y1_N12
 \dataIndex[1]~feeder\ : arriaii_lcell_comb
@@ -1656,28 +1640,44 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => dataIndex(1));
 
--- Location: MLABCELL_X29_Y1_N24
+-- Location: FF_X27_Y2_N5
+\dataIndex[2]\ : dffeas
+-- pragma translate_off
+GENERIC MAP (
+	is_wysiwyg => "true",
+	power_up => "low")
+-- pragma translate_on
+PORT MAP (
+	clk => \SCL~inputclkctrl_outclk\,
+	d => \Add0~9_sumout\,
+	sclr => \Equal0~6_combout\,
+	ena => \start~q\,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor,
+	q => dataIndex(2));
+
+-- Location: MLABCELL_X29_Y1_N8
 \data[0]~0\ : arriaii_lcell_comb
 -- Equation(s):
--- \data[0]~0_combout\ = ( data(0) & ( \SDA~input_o\ ) ) # ( !data(0) & ( \SDA~input_o\ & ( (!dataIndex(1) & (!dataIndex(0) & (!dataIndex(2) & \start~q\))) ) ) ) # ( data(0) & ( !\SDA~input_o\ & ( (((!\start~q\) # (dataIndex(2))) # (dataIndex(0))) # 
--- (dataIndex(1)) ) ) )
+-- \data[0]~0_combout\ = ( data(0) & ( \SDA~input_o\ ) ) # ( !data(0) & ( \SDA~input_o\ & ( (!dataIndex(2) & (!dataIndex(0) & (\start~q\ & !dataIndex(1)))) ) ) ) # ( data(0) & ( !\SDA~input_o\ & ( (((!\start~q\) # (dataIndex(1))) # (dataIndex(0))) # 
+-- (dataIndex(2)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000111111110111111100000000100000001111111111111111",
+	lut_mask => "0000000000000000111101111111111100001000000000001111111111111111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(1),
+	dataa => ALT_INV_dataIndex(2),
 	datab => ALT_INV_dataIndex(0),
-	datac => ALT_INV_dataIndex(2),
-	datad => \ALT_INV_start~q\,
+	datac => \ALT_INV_start~q\,
+	datad => ALT_INV_dataIndex(1),
 	datae => ALT_INV_data(0),
 	dataf => \ALT_INV_SDA~input_o\,
 	combout => \data[0]~0_combout\);
 
--- Location: FF_X29_Y1_N25
+-- Location: FF_X29_Y1_N9
 \data[0]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1694,20 +1694,20 @@ PORT MAP (
 -- Location: MLABCELL_X29_Y1_N28
 \data[1]~1\ : arriaii_lcell_comb
 -- Equation(s):
--- \data[1]~1_combout\ = ( data(1) & ( \SDA~input_o\ ) ) # ( !data(1) & ( \SDA~input_o\ & ( (!dataIndex(1) & (dataIndex(0) & (!dataIndex(2) & \start~q\))) ) ) ) # ( data(1) & ( !\SDA~input_o\ & ( ((!dataIndex(0)) # ((!\start~q\) # (dataIndex(2)))) # 
--- (dataIndex(1)) ) ) )
+-- \data[1]~1_combout\ = ( data(1) & ( \SDA~input_o\ ) ) # ( !data(1) & ( \SDA~input_o\ & ( (!dataIndex(2) & (dataIndex(0) & (\start~q\ & !dataIndex(1)))) ) ) ) # ( data(1) & ( !\SDA~input_o\ & ( ((!dataIndex(0)) # ((!\start~q\) # (dataIndex(1)))) # 
+-- (dataIndex(2)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000111111111101111100000000001000001111111111111111",
+	lut_mask => "0000000000000000111111011111111100000010000000001111111111111111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(1),
+	dataa => ALT_INV_dataIndex(2),
 	datab => ALT_INV_dataIndex(0),
-	datac => ALT_INV_dataIndex(2),
-	datad => \ALT_INV_start~q\,
+	datac => \ALT_INV_start~q\,
+	datad => ALT_INV_dataIndex(1),
 	datae => ALT_INV_data(1),
 	dataf => \ALT_INV_SDA~input_o\,
 	combout => \data[1]~1_combout\);
@@ -1726,28 +1726,28 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => data(1));
 
--- Location: MLABCELL_X29_Y1_N16
+-- Location: MLABCELL_X29_Y1_N24
 \data[2]~2\ : arriaii_lcell_comb
 -- Equation(s):
--- \data[2]~2_combout\ = ( data(2) & ( \SDA~input_o\ ) ) # ( !data(2) & ( \SDA~input_o\ & ( (dataIndex(1) & (!dataIndex(0) & (!dataIndex(2) & \start~q\))) ) ) ) # ( data(2) & ( !\SDA~input_o\ & ( (!dataIndex(1)) # (((!\start~q\) # (dataIndex(2))) # 
--- (dataIndex(0))) ) ) )
+-- \data[2]~2_combout\ = ( data(2) & ( \SDA~input_o\ ) ) # ( !data(2) & ( \SDA~input_o\ & ( (!dataIndex(2) & (!dataIndex(0) & (\start~q\ & dataIndex(1)))) ) ) ) # ( data(2) & ( !\SDA~input_o\ & ( (((!\start~q\) # (!dataIndex(1))) # (dataIndex(0))) # 
+-- (dataIndex(2)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000111111111011111100000000010000001111111111111111",
+	lut_mask => "0000000000000000111111111111011100000000000010001111111111111111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(1),
+	dataa => ALT_INV_dataIndex(2),
 	datab => ALT_INV_dataIndex(0),
-	datac => ALT_INV_dataIndex(2),
-	datad => \ALT_INV_start~q\,
+	datac => \ALT_INV_start~q\,
+	datad => ALT_INV_dataIndex(1),
 	datae => ALT_INV_data(2),
 	dataf => \ALT_INV_SDA~input_o\,
 	combout => \data[2]~2_combout\);
 
--- Location: FF_X29_Y1_N17
+-- Location: FF_X29_Y1_N25
 \data[2]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1761,28 +1761,28 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => data(2));
 
--- Location: MLABCELL_X29_Y1_N12
+-- Location: MLABCELL_X29_Y1_N36
 \data[3]~3\ : arriaii_lcell_comb
 -- Equation(s):
--- \data[3]~3_combout\ = ( data(3) & ( \SDA~input_o\ ) ) # ( !data(3) & ( \SDA~input_o\ & ( (dataIndex(1) & (dataIndex(0) & (!dataIndex(2) & \start~q\))) ) ) ) # ( data(3) & ( !\SDA~input_o\ & ( (!dataIndex(1)) # ((!dataIndex(0)) # ((!\start~q\) # 
--- (dataIndex(2)))) ) ) )
+-- \data[3]~3_combout\ = ( data(3) & ( \SDA~input_o\ ) ) # ( !data(3) & ( \SDA~input_o\ & ( (!dataIndex(2) & (dataIndex(0) & (\start~q\ & dataIndex(1)))) ) ) ) # ( data(3) & ( !\SDA~input_o\ & ( ((!dataIndex(0)) # ((!\start~q\) # (!dataIndex(1)))) # 
+-- (dataIndex(2)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000111111111110111100000000000100001111111111111111",
+	lut_mask => "0000000000000000111111111111110100000000000000101111111111111111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(1),
+	dataa => ALT_INV_dataIndex(2),
 	datab => ALT_INV_dataIndex(0),
-	datac => ALT_INV_dataIndex(2),
-	datad => \ALT_INV_start~q\,
+	datac => \ALT_INV_start~q\,
+	datad => ALT_INV_dataIndex(1),
 	datae => ALT_INV_data(3),
 	dataf => \ALT_INV_SDA~input_o\,
 	combout => \data[3]~3_combout\);
 
--- Location: FF_X29_Y1_N13
+-- Location: FF_X29_Y1_N37
 \data[3]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1799,20 +1799,20 @@ PORT MAP (
 -- Location: MLABCELL_X29_Y1_N32
 \data[4]~4\ : arriaii_lcell_comb
 -- Equation(s):
--- \data[4]~4_combout\ = ( data(4) & ( \SDA~input_o\ ) ) # ( !data(4) & ( \SDA~input_o\ & ( (!dataIndex(1) & (!dataIndex(0) & (dataIndex(2) & \start~q\))) ) ) ) # ( data(4) & ( !\SDA~input_o\ & ( (((!dataIndex(2)) # (!\start~q\)) # (dataIndex(0))) # 
--- (dataIndex(1)) ) ) )
+-- \data[4]~4_combout\ = ( data(4) & ( \SDA~input_o\ ) ) # ( !data(4) & ( \SDA~input_o\ & ( (dataIndex(2) & (!dataIndex(0) & (\start~q\ & !dataIndex(1)))) ) ) ) # ( data(4) & ( !\SDA~input_o\ & ( (!dataIndex(2)) # (((!\start~q\) # (dataIndex(1))) # 
+-- (dataIndex(0))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111011100000000000010001111111111111111",
+	lut_mask => "0000000000000000111110111111111100000100000000001111111111111111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(1),
+	dataa => ALT_INV_dataIndex(2),
 	datab => ALT_INV_dataIndex(0),
-	datac => ALT_INV_dataIndex(2),
-	datad => \ALT_INV_start~q\,
+	datac => \ALT_INV_start~q\,
+	datad => ALT_INV_dataIndex(1),
 	datae => ALT_INV_data(4),
 	dataf => \ALT_INV_SDA~input_o\,
 	combout => \data[4]~4_combout\);
@@ -1831,28 +1831,28 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => data(4));
 
--- Location: MLABCELL_X29_Y1_N36
+-- Location: MLABCELL_X29_Y1_N12
 \data[5]~5\ : arriaii_lcell_comb
 -- Equation(s):
--- \data[5]~5_combout\ = ( data(5) & ( \SDA~input_o\ ) ) # ( !data(5) & ( \SDA~input_o\ & ( (!dataIndex(1) & (dataIndex(0) & (dataIndex(2) & \start~q\))) ) ) ) # ( data(5) & ( !\SDA~input_o\ & ( ((!dataIndex(0)) # ((!dataIndex(2)) # (!\start~q\))) # 
--- (dataIndex(1)) ) ) )
+-- \data[5]~5_combout\ = ( data(5) & ( \SDA~input_o\ ) ) # ( !data(5) & ( \SDA~input_o\ & ( (dataIndex(2) & (dataIndex(0) & (\start~q\ & !dataIndex(1)))) ) ) ) # ( data(5) & ( !\SDA~input_o\ & ( (!dataIndex(2)) # ((!dataIndex(0)) # ((!\start~q\) # 
+-- (dataIndex(1)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000111111111111110100000000000000101111111111111111",
+	lut_mask => "0000000000000000111111101111111100000001000000001111111111111111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(1),
+	dataa => ALT_INV_dataIndex(2),
 	datab => ALT_INV_dataIndex(0),
-	datac => ALT_INV_dataIndex(2),
-	datad => \ALT_INV_start~q\,
+	datac => \ALT_INV_start~q\,
+	datad => ALT_INV_dataIndex(1),
 	datae => ALT_INV_data(5),
 	dataf => \ALT_INV_SDA~input_o\,
 	combout => \data[5]~5_combout\);
 
--- Location: FF_X29_Y1_N37
+-- Location: FF_X29_Y1_N13
 \data[5]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1866,10 +1866,10 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => data(5));
 
--- Location: MLABCELL_X29_Y1_N8
+-- Location: MLABCELL_X29_Y1_N16
 \data[6]~6\ : arriaii_lcell_comb
 -- Equation(s):
--- \data[6]~6_combout\ = ( data(6) & ( \SDA~input_o\ ) ) # ( !data(6) & ( \SDA~input_o\ & ( (dataIndex(1) & (!dataIndex(0) & (dataIndex(2) & \start~q\))) ) ) ) # ( data(6) & ( !\SDA~input_o\ & ( (!dataIndex(1)) # (((!dataIndex(2)) # (!\start~q\)) # 
+-- \data[6]~6_combout\ = ( data(6) & ( \SDA~input_o\ ) ) # ( !data(6) & ( \SDA~input_o\ & ( (dataIndex(2) & (!dataIndex(0) & (\start~q\ & dataIndex(1)))) ) ) ) # ( data(6) & ( !\SDA~input_o\ & ( (!dataIndex(2)) # (((!\start~q\) # (!dataIndex(1))) # 
 -- (dataIndex(0))) ) ) )
 
 -- pragma translate_off
@@ -1879,15 +1879,15 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(1),
+	dataa => ALT_INV_dataIndex(2),
 	datab => ALT_INV_dataIndex(0),
-	datac => ALT_INV_dataIndex(2),
-	datad => \ALT_INV_start~q\,
+	datac => \ALT_INV_start~q\,
+	datad => ALT_INV_dataIndex(1),
 	datae => ALT_INV_data(6),
 	dataf => \ALT_INV_SDA~input_o\,
 	combout => \data[6]~6_combout\);
 
--- Location: FF_X29_Y1_N9
+-- Location: FF_X29_Y1_N17
 \data[6]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1904,8 +1904,8 @@ PORT MAP (
 -- Location: MLABCELL_X29_Y1_N20
 \data[7]~7\ : arriaii_lcell_comb
 -- Equation(s):
--- \data[7]~7_combout\ = ( data(7) & ( \SDA~input_o\ ) ) # ( !data(7) & ( \SDA~input_o\ & ( (dataIndex(1) & (dataIndex(0) & (dataIndex(2) & \start~q\))) ) ) ) # ( data(7) & ( !\SDA~input_o\ & ( (!dataIndex(1)) # ((!dataIndex(0)) # ((!dataIndex(2)) # 
--- (!\start~q\))) ) ) )
+-- \data[7]~7_combout\ = ( data(7) & ( \SDA~input_o\ ) ) # ( !data(7) & ( \SDA~input_o\ & ( (dataIndex(2) & (dataIndex(0) & (\start~q\ & dataIndex(1)))) ) ) ) # ( data(7) & ( !\SDA~input_o\ & ( (!dataIndex(2)) # ((!dataIndex(0)) # ((!\start~q\) # 
+-- (!dataIndex(1)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -1914,10 +1914,10 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => ALT_INV_dataIndex(1),
+	dataa => ALT_INV_dataIndex(2),
 	datab => ALT_INV_dataIndex(0),
-	datac => ALT_INV_dataIndex(2),
-	datad => \ALT_INV_start~q\,
+	datac => \ALT_INV_start~q\,
+	datad => ALT_INV_dataIndex(1),
 	datae => ALT_INV_data(7),
 	dataf => \ALT_INV_SDA~input_o\,
 	combout => \data[7]~7_combout\);

@@ -2,6 +2,8 @@
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 
+--Connected I2c controller -> RAM -> LEd controller
+
 entity I2CTestBench is
 end entity;
 
