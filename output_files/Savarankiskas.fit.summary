@@ -1,15 +1,15 @@
-Fitter Status : Successful - Mon Oct 10 18:04:38 2022
+Fitter Status : Successful - Mon Oct 10 21:31:13 2022
 Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 Revision Name : Savarankiskas
 Top-level Entity Name : I2CSlaveController
 Family : Arria II GX
 Device : EP2AGX45CU17I3
 Timing Models : Final
-Logic utilization : 0 %
-    Combinational ALUTs : 0 / 36,100 ( 0 % )
+Logic utilization : < 1 %
+    Combinational ALUTs : 48 / 36,100 ( < 1 % )
     Memory ALUTs : 0 / 18,050 ( 0 % )
-    Dedicated logic registers : 0 / 36,100 ( 0 % )
-Total registers : 0
+    Dedicated logic registers : 41 / 36,100 ( < 1 % )
+Total registers : 41
 Total pins : 10 / 176 ( 6 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 2,939,904 ( 0 % )

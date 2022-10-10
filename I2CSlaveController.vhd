@@ -1,9 +1,13 @@
 Library IEEE;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
-use IEEE.NUMERIC_STD.ALL;
 
 entity I2CSlaveController is
+generic(
+THIS_ADRESS:unsigned := "01110111";
+COMMAND1:unsigned := "00000001";
+COMMAND2:unsigned := "00000010"
+);
 port(
 SDA: in std_logic;
 SCL: in std_logic;
@@ -15,6 +19,9 @@ architecture arc of I2CSlaveController is
 signal start: std_logic := '0';
 signal data: std_logic_vector(7 downto 0) := (others => '0');
 signal dataIndex: integer := 0;
+signal dataReadDone: std_logic := '0';
+signal command1Done: std_logic := '0';
+signal thisAdress: std_logic := '0';
 
 begin
 
@@ -32,14 +39,33 @@ process(SCL)
 	begin
 	if SCL'event and SCL = '1' and start = '1' then
 		data(dataIndex) <= SDA;
+		--report "The value of index is " & integer'image(dataIndex);
 		
-		report "The value of index is " & integer'image(dataIndex);
-		if dataIndex = 6 then
-			--Data_out <= conv_std_logic_vector(128, Data_out'length);
-			
-			--end if;
+		if dataIndex = 7 then
+			dataReadDone <= '1';
+			dataIndex <= 0;
+			report "Data read done";
+		else
+			dataIndex <= dataIndex + 1;
+			dataReadDone <= '0';
 		end if;
-		dataIndex <= dataIndex + 1;
+	end if;
+end process;
+
+--Data getting done, compare
+process(dataReadDone)
+begin
+	if dataReadDone'event then
+		if thisAdress = '1' then
+			if unsigned(data) = COMMAND1 then
+				report "Comm1";
+			elsif unsigned(data) = COMMAND2 then
+				report "Comm2";
+			end if;
+		elsif unsigned(data) = THIS_ADRESS then
+				thisAdress <= '1';
+				report "This address";
+		end if;
 	end if;
 end process;
 

@@ -30,21 +30,1628 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "I2CSlaveController")
-  (DATE "10/10/2022 18:04:45")
+  (DATE "10/10/2022 21:31:21")
   (VENDOR "Altera")
   (PROGRAM "Quartus Prime")
   (VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition")
   (DIVIDER .)
   (TIMESCALE 1 ps)
 
-	// No Timing Cells with timing info are found in the compiled design. A dummy dff Timing Cell is created.
   (CELL
-    (CELLTYPE "dff")
-    (INSTANCE * )
+    (CELLTYPE "arriaii_io_obuf")
+    (INSTANCE \\Data_out\[0\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (388:388:388) (380:380:380))
+        (IOPATH i o (2130:2130:2130) (2134:2134:2134))
+      )
+    )
   )
-	// No Timing Cells with timing info are found in the compiled design. A dummy dff Timing Cell is created.
   (CELL
-    (CELLTYPE "dff")
-    (INSTANCE * )
+    (CELLTYPE "arriaii_io_obuf")
+    (INSTANCE \\Data_out\[1\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (388:388:388) (380:380:380))
+        (IOPATH i o (2121:2121:2121) (2127:2127:2127))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_io_obuf")
+    (INSTANCE \\Data_out\[2\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (418:418:418) (411:411:411))
+        (IOPATH i o (2008:2008:2008) (2036:2036:2036))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_io_obuf")
+    (INSTANCE \\Data_out\[3\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (414:414:414) (415:415:415))
+        (IOPATH i o (2120:2120:2120) (2124:2124:2124))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_io_obuf")
+    (INSTANCE \\Data_out\[4\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (398:398:398) (395:395:395))
+        (IOPATH i o (2131:2131:2131) (2137:2137:2137))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_io_obuf")
+    (INSTANCE \\Data_out\[5\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (612:612:612) (584:584:584))
+        (IOPATH i o (2130:2130:2130) (2134:2134:2134))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_io_obuf")
+    (INSTANCE \\Data_out\[6\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (429:429:429) (423:423:423))
+        (IOPATH i o (1993:1993:1993) (2020:2020:2020))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_io_obuf")
+    (INSTANCE \\Data_out\[7\]\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (382:382:382) (371:371:371))
+        (IOPATH i o (2003:2003:2003) (2030:2030:2030))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_io_ibuf")
+    (INSTANCE \\SCL\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (498:498:498) (549:549:549))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_and2")
+    (INSTANCE \\SCL\~inputclkctrl\\.outclk_and)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH IN1 Y (365:365:365) (347:347:347))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~1\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (489:489:489) (535:535:535))
+        (IOPATH datad sumout (533:533:533) (535:535:535))
+        (IOPATH datad cout (354:354:354) (354:354:354))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Equal0\~0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (222:222:222) (228:228:228))
+        (PORT datae (208:208:208) (210:210:210))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH datae combout (189:189:189) (171:171:171))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~5\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (479:479:479) (525:525:525))
+        (IOPATH datad sumout (533:533:533) (535:535:535))
+        (IOPATH datad cout (354:354:354) (354:354:354))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~9\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_io_ibuf")
+    (INSTANCE \\SDA\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (510:510:510) (571:571:571))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\start\~0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (1484:1484:1484) (1672:1672:1672))
+        (PORT dataf (210:210:210) (213:213:213))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\start\~feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (527:527:527) (546:546:546))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE start)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1737:1737:1737) (1820:1820:1820))
+        (PORT d (71:71:71) (83:83:83))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[2\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~13\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[3\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~17\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[4\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~21\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[5\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~25\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[6\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~29\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[7\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~33\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[8\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~37\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (598:598:598) (572:572:572))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (76:76:76) (76:76:76))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[9\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~41\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[10\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~45\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[11\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~49\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[12\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~53\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[13\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~57\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[14\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (963:963:963) (894:894:894))
+        (PORT ena (941:941:941) (1008:1008:1008))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~61\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (469:469:469) (502:502:502))
+        (IOPATH datad sumout (533:533:533) (535:535:535))
+        (IOPATH datad cout (354:354:354) (354:354:354))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[15\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT asdata (591:591:591) (572:572:572))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP asdata (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD asdata (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~65\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataf (472:472:472) (517:517:517))
+        (IOPATH dataf sumout (523:523:523) (542:542:542))
+        (IOPATH dataf cout (352:352:352) (352:352:352))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[16\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT asdata (684:684:684) (652:652:652))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP asdata (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD asdata (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~69\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataf (470:470:470) (504:504:504))
+        (IOPATH dataf sumout (523:523:523) (542:542:542))
+        (IOPATH dataf cout (352:352:352) (352:352:352))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[17\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT asdata (572:572:572) (556:556:556))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP asdata (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD asdata (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~73\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataf (477:477:477) (520:520:520))
+        (IOPATH dataf sumout (523:523:523) (542:542:542))
+        (IOPATH dataf cout (352:352:352) (352:352:352))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[18\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT asdata (584:584:584) (558:558:558))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP asdata (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD asdata (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~77\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (478:478:478) (513:513:513))
+        (IOPATH datad sumout (533:533:533) (535:535:535))
+        (IOPATH datad cout (490:490:490) (490:490:490))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (133:133:133) (133:133:133))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[19\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT asdata (650:650:650) (611:611:611))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP asdata (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD asdata (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~81\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[20\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~85\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[21\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~89\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[22\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~93\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[23\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~97\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[24\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~101\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[25\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~105\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[26\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Equal0\~2\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (221:221:221) (212:212:212))
+        (PORT datab (218:218:218) (210:210:210))
+        (PORT datac (255:255:255) (278:278:278))
+        (PORT datad (224:224:224) (222:222:222))
+        (PORT datae (247:247:247) (269:269:269))
+        (PORT dataf (215:215:215) (208:208:208))
+        (IOPATH dataa combout (379:379:379) (378:378:378))
+        (IOPATH datab combout (380:380:380) (372:372:372))
+        (IOPATH datac combout (260:260:260) (237:237:237))
+        (IOPATH datad combout (250:250:250) (239:239:239))
+        (IOPATH datae combout (199:199:199) (169:169:169))
+        (IOPATH dataf combout (81:81:81) (71:71:71))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Equal0\~3\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (211:211:211) (208:208:208))
+        (PORT datab (206:206:206) (204:204:204))
+        (PORT datac (239:239:239) (273:273:273))
+        (PORT datad (274:274:274) (308:308:308))
+        (PORT datae (208:208:208) (205:205:205))
+        (PORT dataf (214:214:214) (209:209:209))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (260:260:260) (237:237:237))
+        (IOPATH datae combout (189:189:189) (171:171:171))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~109\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[27\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~113\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[28\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~117\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (598:598:598) (572:572:572))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+        (IOPATH cin cout (76:76:76) (76:76:76))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[29\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~121\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH datad cout (521:521:521) (494:494:494))
+        (IOPATH cin sumout (305:305:305) (256:256:256))
+        (IOPATH cin cout (10:10:10) (10:10:10))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[30\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Add0\~125\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH datad sumout (887:887:887) (871:871:871))
+        (IOPATH cin sumout (325:325:325) (286:286:286))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[31\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1564:1564:1564) (1594:1594:1594))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (660:660:660) (619:619:619))
+        (PORT ena (680:680:680) (759:759:759))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Equal0\~1\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (217:217:217) (210:210:210))
+        (PORT datab (212:212:212) (204:204:204))
+        (PORT datac (432:432:432) (470:470:470))
+        (PORT datad (214:214:214) (212:212:212))
+        (PORT datae (206:206:206) (200:200:200))
+        (PORT dataf (232:232:232) (258:258:258))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (260:260:260) (237:237:237))
+        (IOPATH datae combout (189:189:189) (171:171:171))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Equal0\~4\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (233:233:233) (257:257:257))
+        (PORT datab (233:233:233) (257:257:257))
+        (PORT datac (249:249:249) (280:280:280))
+        (PORT datad (239:239:239) (268:268:268))
+        (PORT datae (229:229:229) (255:255:255))
+        (PORT dataf (347:347:347) (389:389:389))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH datae combout (189:189:189) (171:171:171))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Equal0\~5\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (235:235:235) (259:259:259))
+        (PORT datab (236:236:236) (261:261:261))
+        (PORT datac (236:236:236) (267:267:267))
+        (PORT datad (242:242:242) (274:274:274))
+        (PORT datae (234:234:234) (258:258:258))
+        (PORT dataf (238:238:238) (261:261:261))
+        (IOPATH dataa combout (379:379:379) (378:378:378))
+        (IOPATH datab combout (380:380:380) (372:372:372))
+        (IOPATH datac combout (305:305:305) (317:317:317))
+        (IOPATH datad combout (250:250:250) (239:239:239))
+        (IOPATH datae combout (199:199:199) (169:169:169))
+        (IOPATH dataf combout (81:81:81) (71:71:71))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\Equal0\~6\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (159:159:159) (170:170:170))
+        (PORT datab (121:121:121) (108:108:108))
+        (PORT datac (125:125:125) (118:118:118))
+        (PORT datad (127:127:127) (118:118:118))
+        (PORT datae (323:323:323) (352:352:352))
+        (PORT dataf (358:358:358) (387:387:387))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (260:260:260) (237:237:237))
+        (IOPATH datae combout (189:189:189) (171:171:171))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[0\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT asdata (685:685:685) (666:666:666))
+        (PORT sclr (728:728:728) (664:664:664))
+        (PORT ena (710:710:710) (782:782:782))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP asdata (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD asdata (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\dataIndex\[1\]\~feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataf (355:355:355) (383:383:383))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\dataIndex\[1\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1412:1412:1412) (1484:1484:1484))
+        (PORT d (71:71:71) (83:83:83))
+        (PORT sclr (728:728:728) (664:664:664))
+        (PORT ena (710:710:710) (782:782:782))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (SETUP sclr (posedge clk) (71:71:71))
+      (SETUP ena (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+      (HOLD sclr (posedge clk) (32:32:32))
+      (HOLD ena (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\data\[0\]\~0\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (482:482:482) (506:506:506))
+        (PORT datab (440:440:440) (479:479:479))
+        (PORT datac (703:703:703) (732:732:732))
+        (PORT datad (477:477:477) (507:507:507))
+        (PORT dataf (2423:2423:2423) (2413:2413:2413))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH datae combout (351:351:351) (319:319:319))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\data\[0\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1415:1415:1415) (1487:1487:1487))
+        (PORT d (71:71:71) (83:83:83))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\data\[1\]\~1\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (477:477:477) (504:504:504))
+        (PORT datab (438:438:438) (477:477:477))
+        (PORT datac (700:700:700) (729:729:729))
+        (PORT datad (474:474:474) (505:505:505))
+        (PORT dataf (2420:2420:2420) (2410:2410:2410))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH datae combout (351:351:351) (319:319:319))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\data\[1\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1415:1415:1415) (1487:1487:1487))
+        (PORT d (71:71:71) (83:83:83))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\data\[2\]\~2\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (451:451:451) (478:478:478))
+        (PORT datab (445:445:445) (484:484:484))
+        (PORT datac (670:670:670) (704:704:704))
+        (PORT datad (443:443:443) (479:479:479))
+        (PORT dataf (2397:2397:2397) (2391:2391:2391))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH datae combout (351:351:351) (319:319:319))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\data\[2\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1415:1415:1415) (1487:1487:1487))
+        (PORT d (71:71:71) (83:83:83))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\data\[3\]\~3\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (443:443:443) (468:468:468))
+        (PORT datab (447:447:447) (486:486:486))
+        (PORT datac (659:659:659) (694:694:694))
+        (PORT datad (447:447:447) (483:483:483))
+        (PORT dataf (2400:2400:2400) (2394:2394:2394))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH datae combout (351:351:351) (319:319:319))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\data\[3\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1415:1415:1415) (1487:1487:1487))
+        (PORT d (71:71:71) (83:83:83))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\data\[4\]\~4\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (472:472:472) (500:500:500))
+        (PORT datab (438:438:438) (477:477:477))
+        (PORT datac (696:696:696) (725:725:725))
+        (PORT datad (469:469:469) (501:501:501))
+        (PORT dataf (2415:2415:2415) (2406:2406:2406))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH datae combout (351:351:351) (319:319:319))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\data\[4\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1415:1415:1415) (1487:1487:1487))
+        (PORT d (71:71:71) (83:83:83))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\data\[5\]\~5\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (468:468:468) (494:494:494))
+        (PORT datab (439:439:439) (479:479:479))
+        (PORT datac (689:689:689) (720:720:720))
+        (PORT datad (463:463:463) (496:496:496))
+        (PORT dataf (2409:2409:2409) (2401:2401:2401))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH datae combout (351:351:351) (319:319:319))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\data\[5\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1415:1415:1415) (1487:1487:1487))
+        (PORT d (71:71:71) (83:83:83))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\data\[6\]\~6\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (440:440:440) (470:470:470))
+        (PORT datab (449:449:449) (488:488:488))
+        (PORT datac (645:645:645) (683:683:683))
+        (PORT datad (449:449:449) (485:485:485))
+        (PORT dataf (2403:2403:2403) (2396:2396:2396))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH datae combout (351:351:351) (319:319:319))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\data\[6\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1415:1415:1415) (1487:1487:1487))
+        (PORT d (71:71:71) (83:83:83))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+    )
+  )
+  (CELL
+    (CELLTYPE "arriaii_lcell_comb")
+    (INSTANCE \\data\[7\]\~7\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (486:486:486) (508:508:508))
+        (PORT datab (442:442:442) (481:481:481))
+        (PORT datac (704:704:704) (733:733:733))
+        (PORT datad (478:478:478) (508:508:508))
+        (PORT dataf (2424:2424:2424) (2414:2414:2414))
+        (IOPATH dataa combout (371:371:371) (365:365:365))
+        (IOPATH datab combout (376:376:376) (361:361:361))
+        (IOPATH datac combout (250:250:250) (239:239:239))
+        (IOPATH datad combout (305:305:305) (317:317:317))
+        (IOPATH datae combout (351:351:351) (319:319:319))
+        (IOPATH dataf combout (79:79:79) (73:73:73))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "dffeas")
+    (INSTANCE \\data\[7\]\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1415:1415:1415) (1487:1487:1487))
+        (PORT d (71:71:71) (83:83:83))
+        (IOPATH (posedge clk) q (40:40:40) (40:40:40))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (71:71:71))
+      (HOLD d (posedge clk) (32:32:32))
+    )
   )
 )

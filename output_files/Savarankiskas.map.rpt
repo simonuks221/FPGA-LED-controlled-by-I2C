@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Savarankiskas
-Mon Oct 10 18:04:30 2022
+Mon Oct 10 21:31:03 2022
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -13,12 +13,11 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. Removed Registers Triggering Further Register Optimizations
- 10. General Register Statistics
- 11. Post-Synthesis Netlist Statistics for Top Partition
- 12. Elapsed Time Per Partition
- 13. Analysis & Synthesis Messages
+  8. General Register Statistics
+  9. Parameter Settings for User Entity Instance: Top-level Entity: |I2CSlaveController
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -45,16 +44,16 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +-----------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status       ; Successful - Mon Oct 10 18:04:30 2022       ;
+; Analysis & Synthesis Status       ; Successful - Mon Oct 10 21:31:03 2022       ;
 ; Quartus Prime Version             ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                     ; Savarankiskas                               ;
 ; Top-level Entity Name             ; I2CSlaveController                          ;
 ; Family                            ; Arria II GX                                 ;
 ; Logic utilization                 ; N/A                                         ;
-;     Combinational ALUTs           ; 0                                           ;
+;     Combinational ALUTs           ; 48                                          ;
 ;     Memory ALUTs                  ; 0                                           ;
-;     Dedicated logic registers     ; 0                                           ;
-; Total registers                   ; 0                                           ;
+;     Dedicated logic registers     ; 41                                          ;
+; Total registers                   ; 41                                          ;
 ; Total pins                        ; 10                                          ;
 ; Total virtual pins                ; 0                                           ;
 ; Total block memory bits           ; 0                                           ;
@@ -163,20 +162,22 @@ agreement for further details.
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-12        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                     ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                              ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------+---------+
-; I2CSlaveController.vhd           ; yes             ; User VHDL File  ; C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                         ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------+---------+
+; I2CSlaveController.vhd           ; yes             ; User VHDL File  ; C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------+
@@ -184,34 +185,34 @@ agreement for further details.
 +-----------------------------------------------+-------+
 ; Resource                                      ; Usage ;
 +-----------------------------------------------+-------+
-; Estimated ALUTs Used                          ; 0     ;
-;     -- Combinational ALUTs                    ; 0     ;
+; Estimated ALUTs Used                          ; 48    ;
+;     -- Combinational ALUTs                    ; 48    ;
 ;     -- Memory ALUTs                           ; 0     ;
 ;     -- LUT_REGs                               ; 0     ;
-; Dedicated logic registers                     ; 0     ;
+; Dedicated logic registers                     ; 41    ;
 ;                                               ;       ;
-; Estimated ALUTs Unavailable                   ; 0     ;
-;     -- Due to unpartnered combinational logic ; 0     ;
+; Estimated ALUTs Unavailable                   ; 14    ;
+;     -- Due to unpartnered combinational logic ; 14    ;
 ;     -- Due to Memory ALUTs                    ; 0     ;
 ;                                               ;       ;
-; Total combinational functions                 ; 0     ;
+; Total combinational functions                 ; 48    ;
 ; Combinational ALUT usage by number of inputs  ;       ;
 ;     -- 7 input functions                      ; 0     ;
-;     -- 6 input functions                      ; 0     ;
+;     -- 6 input functions                      ; 14    ;
 ;     -- 5 input functions                      ; 0     ;
 ;     -- 4 input functions                      ; 0     ;
-;     -- <=3 input functions                    ; 0     ;
+;     -- <=3 input functions                    ; 34    ;
 ;                                               ;       ;
 ; Combinational ALUTs by mode                   ;       ;
-;     -- normal mode                            ; 0     ;
+;     -- normal mode                            ; 16    ;
 ;     -- extended LUT mode                      ; 0     ;
-;     -- arithmetic mode                        ; 0     ;
+;     -- arithmetic mode                        ; 32    ;
 ;     -- shared arithmetic mode                 ; 0     ;
 ;                                               ;       ;
-; Estimated ALUT/register pairs used            ; 0     ;
+; Estimated ALUT/register pairs used            ; 62    ;
 ;                                               ;       ;
-; Total registers                               ; 0     ;
-;     -- Dedicated logic registers              ; 0     ;
+; Total registers                               ; 41    ;
+;     -- Dedicated logic registers              ; 41    ;
 ;     -- I/O registers                          ; 0     ;
 ;     -- LUT_REGs                               ; 0     ;
 ;                                               ;       ;
@@ -220,10 +221,10 @@ agreement for further details.
 ;                                               ;       ;
 ; DSP block 18-bit elements                     ; 0     ;
 ;                                               ;       ;
-; Maximum fan-out node                          ; SDA   ;
-; Maximum fan-out                               ; 1     ;
-; Total fan-out                                 ; 10    ;
-; Average fan-out                               ; 0.50  ;
+; Maximum fan-out node                          ; start ;
+; Maximum fan-out                               ; 41    ;
+; Total fan-out                                 ; 315   ;
+; Average fan-out                               ; 2.89  ;
 +-----------------------------------------------+-------+
 
 
@@ -232,38 +233,9 @@ agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------+--------------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 12x12 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name        ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------+--------------------+--------------+
-; |I2CSlaveController        ; 0 (0)               ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 10   ; 0            ; |I2CSlaveController ; I2CSlaveController ; work         ;
+; |I2CSlaveController        ; 48 (48)             ; 41 (41)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 10   ; 0            ; |I2CSlaveController ; I2CSlaveController ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------+--------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+---------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                              ;
-+----------------------------------------+----------------------------------------+
-; Register name                          ; Reason for Removal                     ;
-+----------------------------------------+----------------------------------------+
-; Data_out[3]~reg0                       ; Stuck at GND due to stuck port data_in ;
-; Data_out[2]~reg0                       ; Stuck at GND due to stuck port data_in ;
-; Data_out[1]~reg0                       ; Stuck at GND due to stuck port data_in ;
-; Data_out[0]~reg0                       ; Stuck at GND due to stuck port data_in ;
-; Data_out[4]~reg0                       ; Stuck at GND due to stuck port data_in ;
-; Data_out[5]~reg0                       ; Stuck at GND due to stuck port data_in ;
-; Data_out[6]~reg0                       ; Stuck at GND due to stuck port data_in ;
-; Data_out[7]~reg0                       ; Stuck at VCC due to stuck port data_in ;
-; dataIndex[0..31]                       ; Lost fanout                            ;
-; start                                  ; Lost fanout                            ;
-; Total Number of Removed Registers = 41 ;                                        ;
-+----------------------------------------+----------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                              ;
-+------------------+---------------------------+-------------------------------------------------------------------------------------------+
-; Register name    ; Reason for Removal        ; Registers Removed due to This Register                                                    ;
-+------------------+---------------------------+-------------------------------------------------------------------------------------------+
-; Data_out[3]~reg0 ; Stuck at GND              ; dataIndex[25], dataIndex[26], dataIndex[27], dataIndex[28], dataIndex[29], dataIndex[30], ;
-;                  ; due to stuck port data_in ; dataIndex[31], start                                                                      ;
-+------------------+---------------------------+-------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -271,14 +243,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
-; Number of registers using Synchronous Clear  ; 0     ;
+; Total registers                              ; 41    ;
+; Number of registers using Synchronous Clear  ; 32    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 32    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |I2CSlaveController ;
++----------------+----------+--------------------------------------------------------+
+; Parameter Name ; Value    ; Type                                                   ;
++----------------+----------+--------------------------------------------------------+
+; THIS_ADRESS    ; 01110111 ; Unsigned Binary                                        ;
+; COMMAND1       ; 00000001 ; Unsigned Binary                                        ;
+; COMMAND2       ; 00000010 ; Unsigned Binary                                        ;
++----------------+----------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-----------------------------------------------------+
@@ -286,13 +270,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
+; arriaii_ff            ; 41                          ;
+;     ENA SCLR          ; 32                          ;
+;     plain             ; 9                           ;
 ; boundary_port         ; 10                          ;
-; stratixiv_lcell_comb  ; 2                           ;
-;     normal            ; 2                           ;
-;         0 data inputs ; 2                           ;
+; stratixiv_lcell_comb  ; 48                          ;
+;     arith             ; 32                          ;
+;         1 data inputs ; 32                          ;
+;     normal            ; 16                          ;
+;         2 data inputs ; 2                           ;
+;         6 data inputs ; 14                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 0.00                        ;
-; Average LUT depth     ; 0.00                        ;
+; Max LUT depth         ; 4.10                        ;
+; Average LUT depth     ; 2.70                        ;
 +-----------------------+-----------------------------+
 
 
@@ -311,50 +301,37 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Mon Oct 10 18:04:20 2022
+    Info: Processing started: Mon Oct 10 21:30:52 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Savarankiskas -c Savarankiskas
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file kodas1.vhd
-    Info (12022): Found design unit 1: Kodas1-behaviour1 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/Kodas1.vhd Line: 9
-    Info (12023): Found entity 1: Kodas1 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/Kodas1.vhd Line: 6
+    Info (12022): Found design unit 1: Kodas1-behaviour1 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/Kodas1.vhd Line: 9
+    Info (12023): Found entity 1: Kodas1 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/Kodas1.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file ram.vhd
-    Info (12022): Found design unit 1: RAM-arch File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/RAM.vhd Line: 19
-    Info (12023): Found entity 1: RAM File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/RAM.vhd Line: 5
+    Info (12022): Found design unit 1: RAM-arch File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd Line: 19
+    Info (12023): Found entity 1: RAM File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file i2cslavecontroller.vhd
-    Info (12022): Found design unit 1: I2CSlaveController-arc File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 14
-    Info (12023): Found entity 1: I2CSlaveController File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 6
+    Info (12022): Found design unit 1: I2CSlaveController-arc File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd Line: 18
+    Info (12023): Found entity 1: I2CSlaveController File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file i2ctestbench.vhd
-    Info (12022): Found design unit 1: I2CTestBench-arc File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd Line: 8
-    Info (12023): Found entity 1: I2CTestBench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd Line: 5
+    Info (12022): Found design unit 1: I2CTestBench-arc File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd Line: 8
+    Info (12023): Found entity 1: I2CTestBench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd Line: 5
 Info (12127): Elaborating entity "I2CSlaveController" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at I2CSlaveController.vhd(16): object "data" assigned a value but never read File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 16
-Info (10635): VHDL Report Statement at I2CSlaveController.vhd(24): "SDA event" (NOTE) File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 24
-Warning (10492): VHDL Process Statement warning at I2CSlaveController.vhd(25): signal "SCL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 25
-Warning (10492): VHDL Process Statement warning at I2CSlaveController.vhd(25): signal "start" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 25
-Warning (10492): VHDL Process Statement warning at I2CSlaveController.vhd(34): signal "start" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 34
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "Data_out[0]" is stuck at GND File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 34
-    Warning (13410): Pin "Data_out[1]" is stuck at GND File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 34
-    Warning (13410): Pin "Data_out[2]" is stuck at GND File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 34
-    Warning (13410): Pin "Data_out[3]" is stuck at GND File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 34
-    Warning (13410): Pin "Data_out[4]" is stuck at GND File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 34
-    Warning (13410): Pin "Data_out[5]" is stuck at GND File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 34
-    Warning (13410): Pin "Data_out[6]" is stuck at GND File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 34
-    Warning (13410): Pin "Data_out[7]" is stuck at VCC File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 34
-Info (17049): 33 registers lost all their fanouts during netlist optimizations.
+Warning (10492): VHDL Process Statement warning at I2CSlaveController.vhd(31): signal "SCL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd Line: 31
+Warning (10492): VHDL Process Statement warning at I2CSlaveController.vhd(31): signal "start" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd Line: 31
+Warning (10492): VHDL Process Statement warning at I2CSlaveController.vhd(40): signal "start" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd Line: 40
+Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 2 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "SDA" File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 8
-    Warning (15610): No output dependent on input pin "SCL" File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd Line: 9
-Info (21057): Implemented 10 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 58 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 8 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 17 warnings
-    Info: Peak virtual memory: 4859 megabytes
-    Info: Processing ended: Mon Oct 10 18:04:30 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:20
+    Info (21061): Implemented 48 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4910 megabytes
+    Info: Processing ended: Mon Oct 10 21:31:03 2022
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:21
 
 

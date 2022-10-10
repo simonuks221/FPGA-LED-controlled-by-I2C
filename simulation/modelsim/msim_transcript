@@ -10,790 +10,366 @@
 # Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd}
+# vcom -93 -work work {C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:05:01 on Oct 10,2022
-# vcom -reportprogress 300 -93 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:31:38 on Oct 10,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:05:01 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:31:38 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:05:15 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:31:55 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:05:15 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:31:55 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:05:15 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:31:55 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:05:15 on Oct 10,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:31:55 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vsim work.i2ctestbench
 # vsim work.i2ctestbench 
-# Start time: 18:05:17 on Oct 10,2022
+# Start time: 21:32:00 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
-add wave -position end  sim:/i2ctestbench/ClkPeriod
-add wave -position end  sim:/i2ctestbench/Data_out
-add wave -position end  sim:/i2ctestbench/SCL
-add wave -position end  sim:/i2ctestbench/SDA
-add wave -position end  sim:/i2ctestbench/commandBytes
-run
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 0  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: Start
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 0
-#    Time: 20 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 1
-#    Time: 30 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 2
-#    Time: 40 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 3
-#    Time: 50 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 4
-#    Time: 60 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 5
-#    Time: 70 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 6
-#    Time: 80 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 7
-#    Time: 90 ps  Iteration: 0  Instance: /i2ctestbench
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:05:58 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity I2CTestBench
-# -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(44): (vcom-1136) Unknown identifier "x".
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(44): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(44): (vcom-1600) No feasible entries for subprogram "CONV_INTEGER".
-#    Visible subprograms are:
-#       (explicit) std_logic_arith.CONV_INTEGER[INTEGER return INTEGER] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(507)
-#       (explicit) std_logic_arith.CONV_INTEGER[UNSIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(511)
-#       (explicit) std_logic_arith.CONV_INTEGER[SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(527)
-#       (explicit) std_logic_arith.CONV_INTEGER[STD_ULOGIC return SMALL_INT] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(531)
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(45): near "end": (vcom-1576) expecting ';'.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(47): near "process": (vcom-1576) expecting LOOP.
-# End time: 18:05:58 on Oct 10,2022, Elapsed time: 0:00:00
-# Errors: 5, Warnings: 1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:06:07 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity I2CTestBench
-# -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:06:07 on Oct 10,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:06:50 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity I2CTestBench
-# -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(44): (vcom-1600) No feasible entries for subprogram "CONV_INTEGER".
-#    Visible subprograms are:
-#       (explicit) std_logic_arith.CONV_INTEGER[INTEGER return INTEGER] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(507)
-#       (explicit) std_logic_arith.CONV_INTEGER[UNSIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(511)
-#       (explicit) std_logic_arith.CONV_INTEGER[SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(527)
-#       (explicit) std_logic_arith.CONV_INTEGER[STD_ULOGIC return SMALL_INT] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(531)
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(45): near "end": (vcom-1576) expecting ';'.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(47): near "process": (vcom-1576) expecting LOOP.
-# End time: 18:06:50 on Oct 10,2022, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:07:02 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity I2CTestBench
-# -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(44): (vcom-1600) No feasible entries for subprogram "CONV_INTEGER".
-#    Visible subprograms are:
-#       (explicit) std_logic_arith.CONV_INTEGER[INTEGER return INTEGER] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(507)
-#       (explicit) std_logic_arith.CONV_INTEGER[UNSIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(511)
-#       (explicit) std_logic_arith.CONV_INTEGER[SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(527)
-#       (explicit) std_logic_arith.CONV_INTEGER[STD_ULOGIC return SMALL_INT] at $MODEL_TECH/../vhdl_src/synopsys/mti_std_logic_arith.vhd(531)
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(49): VHDL Compiler exiting
-# End time: 18:07:02 on Oct 10,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:07:44 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity I2CTestBench
-# -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:07:44 on Oct 10,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-vsim work.i2ctestbench
-# End time: 18:07:49 on Oct 10,2022, Elapsed time: 0:02:32
-# Errors: 10, Warnings: 5
-# vsim work.i2ctestbench 
-# Start time: 18:07:49 on Oct 10,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
-# Loading work.i2cslavecontroller(arc)
-add wave -position end  sim:/i2ctestbench/ClkPeriod
 add wave -position end  sim:/i2ctestbench/Data_out
 add wave -position end  sim:/i2ctestbench/SCL
 add wave -position end  sim:/i2ctestbench/SDA
 run
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 0  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
 # ** Note: Start
 #    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 0
-#    Time: 20 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 1
-#    Time: 30 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 2
-#    Time: 40 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 3
-#    Time: 50 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 4
-#    Time: 60 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 5
-#    Time: 70 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 6
-#    Time: 80 ps  Iteration: 0  Instance: /i2ctestbench
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The index of k is 7
-#    Time: 90 ps  Iteration: 0  Instance: /i2ctestbench
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+# ** Note: Data read done
+#    Time: 90 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: This address
+#    Time: 90 ps  Iteration: 2  Instance: /i2ctestbench/slave1
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:08:43 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:43:13 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:08:43 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:43:13 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:08:43 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:43:13 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:08:43 on Oct 10,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:43:13 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vsim work.i2ctestbench
-# End time: 18:08:47 on Oct 10,2022, Elapsed time: 0:00:58
+# End time: 21:43:20 on Oct 10,2022, Elapsed time: 0:11:20
 # Errors: 0, Warnings: 1
 # vsim work.i2ctestbench 
-# Start time: 18:08:47 on Oct 10,2022
+# Start time: 21:43:21 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
-# Loading work.i2cslavecontroller(arc)
-run
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 0  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: Start
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-add wave -position end  sim:/i2ctestbench/ClkPeriod
-add wave -position end  sim:/i2ctestbench/Data_out
-add wave -position end  sim:/i2ctestbench/SCL
-add wave -position end  sim:/i2ctestbench/SDA
-run
-# Break key hit
-run -all
-run -continue
-run
-vsim work.i2ctestbench
-# End time: 18:09:05 on Oct 10,2022, Elapsed time: 0:00:18
-# Errors: 0, Warnings: 0
-# vsim work.i2ctestbench 
-# Start time: 18:09:05 on Oct 10,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
 add wave -position end  sim:/i2ctestbench/Data_out
 add wave -position end  sim:/i2ctestbench/SCL
 add wave -position end  sim:/i2ctestbench/SDA
 run
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 0  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
 # ** Note: Start
 #    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: Data read done
+#    Time: 90 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: This address
+#    Time: 90 ps  Iteration: 2  Instance: /i2ctestbench/slave1
 run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:09:37 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:45:31 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:09:37 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:45:31 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:09:45 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
-# -- Compiling entity I2CSlaveController
-# -- Compiling architecture arc of I2CSlaveController
-# End time: 18:09:45 on Oct 10,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.i2ctestbench
-# End time: 18:09:49 on Oct 10,2022, Elapsed time: 0:00:44
-# Errors: 0, Warnings: 0
-# vsim work.i2ctestbench 
-# Start time: 18:09:49 on Oct 10,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
-# Loading work.i2cslavecontroller(arc)
-add wave -position end  sim:/i2ctestbench/Data_out
-add wave -position end  sim:/i2ctestbench/SCL
-add wave -position end  sim:/i2ctestbench/SDA
-run
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 0  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: Start
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:10:37 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:45:31 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:10:37 on Oct 10,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:45:31 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:10:40 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
-# -- Compiling entity I2CSlaveController
-# -- Compiling architecture arc of I2CSlaveController
-# End time: 18:10:40 on Oct 10,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 vsim work.i2ctestbench
-# End time: 18:10:43 on Oct 10,2022, Elapsed time: 0:00:54
+# End time: 21:45:36 on Oct 10,2022, Elapsed time: 0:02:15
 # Errors: 0, Warnings: 1
 # vsim work.i2ctestbench 
-# Start time: 18:10:43 on Oct 10,2022
+# Start time: 21:45:36 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
 add wave -position end  sim:/i2ctestbench/Data_out
 add wave -position end  sim:/i2ctestbench/SCL
 add wave -position end  sim:/i2ctestbench/SDA
 run
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 0  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
 # ** Note: Start
 #    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: SDA event
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+# ** Note: Data read done
+#    Time: 90 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: This address
+#    Time: 90 ps  Iteration: 2  Instance: /i2ctestbench/slave1
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:13:15 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:46:30 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:13:15 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:46:31 on Oct 10,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:13:15 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:46:31 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:13:15 on Oct 10,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:46:31 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vsim work.i2ctestbench
-# End time: 18:13:18 on Oct 10,2022, Elapsed time: 0:02:35
+# End time: 21:46:35 on Oct 10,2022, Elapsed time: 0:00:59
 # Errors: 0, Warnings: 1
 # vsim work.i2ctestbench 
-# Start time: 18:13:19 on Oct 10,2022
+# Start time: 21:46:35 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
-add wave -position end  sim:/i2ctestbench/ClkPeriod
 add wave -position end  sim:/i2ctestbench/Data_out
 add wave -position end  sim:/i2ctestbench/SCL
 add wave -position end  sim:/i2ctestbench/SDA
 run
 # ** Note: Start
 #    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: Data read done
+#    Time: 90 ps  Iteration: 1  Instance: /i2ctestbench/slave1
 run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:14:09 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:47:45 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:14:09 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:47:45 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:14:09 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:47:45 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:14:09 on Oct 10,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:47:45 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vsim work.i2ctestbench
-# End time: 18:14:13 on Oct 10,2022, Elapsed time: 0:00:54
+# End time: 21:47:49 on Oct 10,2022, Elapsed time: 0:01:14
 # Errors: 0, Warnings: 1
 # vsim work.i2ctestbench 
-# Start time: 18:14:13 on Oct 10,2022
+# Start time: 21:47:49 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
-add wave -position end  sim:/i2ctestbench/ClkPeriod
 add wave -position end  sim:/i2ctestbench/Data_out
 add wave -position end  sim:/i2ctestbench/SCL
 add wave -position end  sim:/i2ctestbench/SDA
 run
 # ** Note: Start
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+#    Time: 10 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: Data read done
+#    Time: 90 ps  Iteration: 1  Instance: /i2ctestbench/slave1
 run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:14:55 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:49:03 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:14:55 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:49:03 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:14:55 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:49:03 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:14:55 on Oct 10,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:49:03 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vsim work.i2ctestbench
-# End time: 18:14:59 on Oct 10,2022, Elapsed time: 0:00:46
+# End time: 21:49:10 on Oct 10,2022, Elapsed time: 0:01:21
 # Errors: 0, Warnings: 1
 # vsim work.i2ctestbench 
-# Start time: 18:14:59 on Oct 10,2022
+# Start time: 21:49:10 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
-add wave -position end  sim:/i2ctestbench/Data_out
-add wave -position end  sim:/i2ctestbench/SCL
-add wave -position end  sim:/i2ctestbench/SDA
-run
-# ** Note: Start
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:15:38 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:51:01 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:15:38 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:51:01 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:15:38 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:51:01 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:15:38 on Oct 10,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:51:01 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vsim work.i2ctestbench
-# End time: 18:15:41 on Oct 10,2022, Elapsed time: 0:00:42
+# End time: 21:51:07 on Oct 10,2022, Elapsed time: 0:01:57
 # Errors: 0, Warnings: 1
 # vsim work.i2ctestbench 
-# Start time: 18:15:41 on Oct 10,2022
+# Start time: 21:51:07 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
 add wave -position end  sim:/i2ctestbench/Data_out
 add wave -position end  sim:/i2ctestbench/SCL
 add wave -position end  sim:/i2ctestbench/SDA
 run
 # ** Note: Start
-#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 6
+#    Time: 10 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: Data read done
 #    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
 run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+# ** Note: Data read done
+#    Time: 160 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:16:51 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:57:12 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:16:51 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:57:12 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:16:51 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:57:12 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:16:51 on Oct 10,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:57:12 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vsim work.i2ctestbench
-# End time: 18:16:56 on Oct 10,2022, Elapsed time: 0:01:15
+# End time: 21:57:17 on Oct 10,2022, Elapsed time: 0:06:10
 # Errors: 0, Warnings: 1
 # vsim work.i2ctestbench 
-# Start time: 18:16:56 on Oct 10,2022
+# Start time: 21:57:17 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
 add wave -position end  sim:/i2ctestbench/Data_out
 add wave -position end  sim:/i2ctestbench/SCL
@@ -801,59 +377,46 @@ add wave -position end  sim:/i2ctestbench/SDA
 run
 # ** Note: Start
 #    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: Data read done
+#    Time: 90 ps  Iteration: 1  Instance: /i2ctestbench/slave1
 run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+# ** Note: Data read done
+#    Time: 170 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:18:23 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:58:23 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:18:23 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:58:23 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:18:23 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:58:23 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(37): (vcom-1246) Range 7 to 0 is null.
-# End time: 18:18:23 on Oct 10,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:58:23 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
 vsim work.i2ctestbench
-# End time: 18:18:26 on Oct 10,2022, Elapsed time: 0:01:30
-# Errors: 0, Warnings: 2
+# End time: 21:58:30 on Oct 10,2022, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 1
 # vsim work.i2ctestbench 
-# Start time: 18:18:26 on Oct 10,2022
+# Start time: 21:58:30 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
 add wave -position end  sim:/i2ctestbench/Data_out
 add wave -position end  sim:/i2ctestbench/SCL
@@ -861,44 +424,46 @@ add wave -position end  sim:/i2ctestbench/SDA
 run
 # ** Note: Start
 #    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: Data read done
+#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
 run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+# ** Note: Data read done
+#    Time: 160 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:18:56 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:59:01 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:18:56 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:59:01 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:18:56 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:59:01 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:18:56 on Oct 10,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:59:01 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vsim work.i2ctestbench
-# End time: 18:18:59 on Oct 10,2022, Elapsed time: 0:00:33
+# End time: 21:59:05 on Oct 10,2022, Elapsed time: 0:00:35
 # Errors: 0, Warnings: 1
 # vsim work.i2ctestbench 
-# Start time: 18:18:59 on Oct 10,2022
+# Start time: 21:59:05 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
 add wave -position end  sim:/i2ctestbench/Data_out
 add wave -position end  sim:/i2ctestbench/SCL
@@ -906,58 +471,46 @@ add wave -position end  sim:/i2ctestbench/SDA
 run
 # ** Note: Start
 #    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: Data read done
+#    Time: 90 ps  Iteration: 1  Instance: /i2ctestbench/slave1
 run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd
+# ** Note: Data read done
+#    Time: 180 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:20:27 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CSlaveController.vhd 
+# Start time: 21:59:36 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
-# -- Loading package NUMERIC_STD
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:20:27 on Oct 10,2022, Elapsed time: 0:00:00
+# End time: 21:59:36 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:20:27 on Oct 10,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd 
+# Start time: 21:59:36 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/I2CTestBench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:20:27 on Oct 10,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:59:36 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vsim work.i2ctestbench
-# End time: 18:20:30 on Oct 10,2022, Elapsed time: 0:01:31
+# End time: 21:59:41 on Oct 10,2022, Elapsed time: 0:00:36
 # Errors: 0, Warnings: 1
 # vsim work.i2ctestbench 
-# Start time: 18:20:30 on Oct 10,2022
+# Start time: 21:59:41 on Oct 10,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.i2ctestbench(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.i2cslavecontroller(arc)
 add wave -position end  sim:/i2ctestbench/Data_out
 add wave -position end  sim:/i2ctestbench/SCL
@@ -965,20 +518,60 @@ add wave -position end  sim:/i2ctestbench/SDA
 run
 # ** Note: Start
 #    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 0
-#    Time: 20 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 1
-#    Time: 30 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 2
-#    Time: 40 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 3
-#    Time: 50 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 4
-#    Time: 60 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 5
-#    Time: 70 ps  Iteration: 1  Instance: /i2ctestbench/slave1
-# ** Note: The value of index is 6
-#    Time: 80 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: Data read done
+#    Time: 90 ps  Iteration: 1  Instance: /i2ctestbench/slave1
 run
-# End time: 18:25:02 on Oct 10,2022, Elapsed time: 0:04:32
+# ** Note: Data read done
+#    Time: 180 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity I2CSlaveController
+# -- Compiling architecture arc of I2CSlaveController
+# End time: 22:00:19 on Oct 10,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:19 on Oct 10,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity I2CTestBench
+# -- Compiling architecture arc of I2CTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 22:00:19 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim work.i2ctestbench
+# End time: 22:00:23 on Oct 10,2022, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 1
+# vsim work.i2ctestbench 
+# Start time: 22:00:23 on Oct 10,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.i2ctestbench(arc)
+# Loading work.i2cslavecontroller(arc)
+add wave -position end  sim:/i2ctestbench/Data_out
+add wave -position end  sim:/i2ctestbench/SCL
+add wave -position end  sim:/i2ctestbench/SDA
+run
+# ** Note: Start
+#    Time: 0 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: Data read done
+#    Time: 90 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: This address
+#    Time: 90 ps  Iteration: 2  Instance: /i2ctestbench/slave1
+run
+# ** Note: Data read done
+#    Time: 180 ps  Iteration: 1  Instance: /i2ctestbench/slave1
+# ** Note: Comm2
+#    Time: 180 ps  Iteration: 2  Instance: /i2ctestbench/slave1
