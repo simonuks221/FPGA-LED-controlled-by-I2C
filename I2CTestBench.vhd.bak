@@ -1,0 +1,22 @@
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use IEEE.NUMERIC_STD.ALL;
+
+entity I2CTestBench is
+end entity;
+
+architecture arc of I2CTestBench is
+component I2CSlaveController
+port(
+SDA: in std_logic;
+SCL: in std_logic;
+Data_out: out std_logic_vector(7 to 0)
+);
+
+signal SDA: in std_logic;
+signal SCL: in std_logic;
+signal Data_out: out std_logic_vector(7 to 0)
+
+begin
+
+end architecture;
