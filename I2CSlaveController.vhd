@@ -64,11 +64,11 @@ begin
 	if dataReadDone'event and dataReadDone = '1' then
 		if thisAdress = '1' then
 			if unsigned(data) = COMMAND1 then
-				dataRead <= Comm1;
+				--dataRead <= Comm1;
 				report "Comm1";
 			elsif unsigned(data) = COMMAND2 then
 				report "Comm2";
-				dataRead <= Comm2;
+				--dataRead <= Comm2;
 			end if;
 		elsif unsigned(data) = THIS_ADRESS then
 				thisAdress <= '1';
