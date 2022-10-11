@@ -59,15 +59,18 @@ end process;
 process
 begin
 	if CLK'event and CLK = '1' then
-		RamAdress <= conv_std_logic_vector(LedIndex+1, RamAdress'length);
+		RamAdress <= conv_std_logic_vector(LedIndex, RamAdress'length);
 		wait until CLK'event and CLK = '1';
+		report "nuskaityta";
 		LEdBrightness(LedIndex) <= conv_integer(unsigned(RamContents));
 		if LedIndex = 2 then
 			LedIndex <= 0;
 		else
 			LedIndex <= LedIndex + 1;
 		end if;
+		wait;
 	end if;
+	
 	wait until CLK'event and CLK = '1';
 end process;
 

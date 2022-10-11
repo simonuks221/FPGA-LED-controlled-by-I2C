@@ -25,10 +25,28 @@ LED2: out std_logic;
 LED3: out std_logic
 );
 end component;
+
+component RAM
+port(
+DATA_WRITE: in std_logic;
+CLK: in std_logic;
+DATA_IN: in std_logic_vector(8 downto 0);
+ADDRESS_IN: in std_logic_vector(3 downto 0);
+DATA_OUT: out std_logic_vector(8 downto 0)
+);
+end component;
+
 begin
 
 LEDController1: LEDController port map(
 CLK =>CLK, RamContents => RamContents, RamAdress => RamAdress, LED1 => LED1, LED2 => LED2, LED3 => LED3);
+
+RAM1: RAM port map(DATA_IN => "000000000", 
+DATA_WRITE => '0', 
+CLK => CLK, 
+ADDRESS_IN => RamAdress, 
+DATA_OUT => RamContents);
+
 
 --Generate clock
 process
@@ -43,11 +61,11 @@ process
 begin
 	wait for 10ps;
 	for index in 0 to 10 loop
-		RamContents <= conv_std_logic_vector(5, RamContents'length);
+		--RamContents <= conv_std_logic_vector(5, RamContents'length);
 		wait for 40ps;
-		RamContents <= conv_std_logic_vector(4, RamContents'length);
+		--RamContents <= conv_std_logic_vector(4, RamContents'length);
 		wait for 40ps;
-		RamContents <= conv_std_logic_vector(3, RamContents'length);
+		--RamContents <= conv_std_logic_vector(3, RamContents'length);
 		wait for 40ps;
 	end loop;
 end process;

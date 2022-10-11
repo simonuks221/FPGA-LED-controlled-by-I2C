@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:52:48 on Oct 11,2022
+# Start time: 19:18:41 on Oct 11,2022
 # vcom -reportprogress 300 -93 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -20,12 +20,649 @@
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 18:52:48 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 19:18:41 on Oct 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:18:47 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of formal "ADDRESS_IN" is 9; length of actual is 4.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of formal "DATA_OUT" is 4; length of actual is 9.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(70): VHDL Compiler exiting
+# End time: 19:18:47 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 6
+vsim work.ledcontrollertestbench
+# vsim work.ledcontrollertestbench 
+# Start time: 19:18:56 on Oct 11,2022
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/simulation/modelsim/rtl_work.ledcontrollertestbench' has no architecture.
+# Error loading design
+# End time: 19:18:56 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:20:37 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1272) Length of formal "ADDRESS_IN" is 9; length of actual is 4.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(48): (vcom-1272) Length of formal "DATA_OUT" is 4; length of actual is 9.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(74): VHDL Compiler exiting
+# End time: 19:20:37 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 6
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:11 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture arch of RAM
+# End time: 19:21:12 on Oct 11,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:14 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1272) Length of formal "ADDRESS_IN" is 9; length of actual is 4.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(48): (vcom-1272) Length of formal "DATA_OUT" is 4; length of actual is 9.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(74): VHDL Compiler exiting
+# End time: 19:21:14 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 6
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:32 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture arch of RAM
+# End time: 19:21:32 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:34 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1272) Length of formal "ADDRESS_IN" is 9; length of actual is 4.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(48): (vcom-1272) Length of formal "DATA_OUT" is 4; length of actual is 9.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(74): VHDL Compiler exiting
+# End time: 19:21:34 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 6
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:22:03 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(74): VHDL Compiler exiting
+# End time: 19:22:03 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 6
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:22:21 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture arch of RAM
+# End time: 19:22:21 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:22:23 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(74): VHDL Compiler exiting
+# End time: 19:22:23 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 6
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:22:49 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:22:49 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+vsim work.ledcontrollertestbench
+# vsim work.ledcontrollertestbench 
+# Start time: 19:22:51 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+# ** Fatal: (vsim-3742) In array aggregate at index 0, element array length 8 (8 downto 1) does not match length 9 (8 downto 0) of element subtype.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd Line: 21
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 19:22:52 on Oct 11,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.ledcontrollertestbench
+# vsim work.ledcontrollertestbench 
+# Start time: 19:22:54 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+# ** Fatal: (vsim-3742) In array aggregate at index 0, element array length 8 (8 downto 1) does not match length 9 (8 downto 0) of element subtype.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd Line: 21
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 19:22:54 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:23:39 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture arch of RAM
+# End time: 19:23:39 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:23:41 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:23:41 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+vsim work.ledcontrollertestbench
+# vsim work.ledcontrollertestbench 
+# Start time: 19:23:43 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+# ** Fatal: (vsim-3714) At array depth 1, array lengths do not match. Left is 17 (0 to 16). Right is 3 (0 to 2).
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd Line: 21
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 19:23:44 on Oct 11,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:24:20 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture arch of RAM
+# End time: 19:24:20 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:24:21 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:24:21 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+vsim work.ledcontrollertestbench
+# vsim work.ledcontrollertestbench 
+# Start time: 19:24:24 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 290 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 370 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 390 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 470 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 490 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 510 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 530 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 570 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 590 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+vsim work.ledcontrollertestbench
+# End time: 19:25:49 on Oct 11,2022, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 31
+# vsim work.ledcontrollertestbench 
+# Start time: 19:25:49 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 290 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 370 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 390 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:17 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:27:17 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+vsim work.ledcontrollertestbench
+# End time: 19:27:21 on Oct 11,2022, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 27
+# vsim work.ledcontrollertestbench 
+# Start time: 19:27:21 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:00 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 19:28:00 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:02 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:28:02 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+vsim work.ledcontrollertestbench
+# End time: 19:28:06 on Oct 11,2022, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 7
+# vsim work.ledcontrollertestbench 
+# Start time: 19:28:06 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+run
+# ** Note: a
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:41 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:28:41 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+vsim work.ledcontrollertestbench
+# End time: 19:28:46 on Oct 11,2022, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 16
+# vsim work.ledcontrollertestbench 
+# Start time: 19:28:46 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+run
+# ** Note: a
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Note: a
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+# ** Fatal: (vsim-3734) Index value 3 is out of range 0 to 2.
+#    Time: 110 ps  Iteration: 1  Process: /ledcontrollertestbench/RAM1/line__24 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
+# Fatal error in Process line__24 at C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd line 31
+# 
+# HDL call sequence:
+# Stopped at C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 31 Process line__24
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 31 Process line__24
 # 
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:52:55 on Oct 11,2022
+# Start time: 19:29:27 on Oct 11,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -33,167 +670,11 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Loading package std_logic_arith
 # -- Compiling entity LEDController
 # -- Compiling architecture arc of LEDController
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(59): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(74): VHDL Compiler exiting
-# End time: 18:52:55 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:52:55 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:52:55 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# vsim work.ledcontrollertestbench 
-# Start time: 18:52:58 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# ** Error: (vsim-3173) Entity 'C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/simulation/modelsim/rtl_work.ledcontroller' has no architecture.
-# Load interrupted
-# Error loading design
-# End time: 18:52:58 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vsim work.ledcontrollertestbench
-# vsim work.ledcontrollertestbench 
-# Start time: 18:53:01 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# ** Error: (vsim-3173) Entity 'C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/simulation/modelsim/rtl_work.ledcontroller' has no architecture.
-# Load interrupted
-# Error loading design
-# End time: 18:53:01 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:17 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDController
-# -- Compiling architecture arc of LEDController
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(59): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(74): VHDL Compiler exiting
-# End time: 18:53:17 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:53:17 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:53:17 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# vsim work.ledcontrollertestbench 
-# Start time: 18:53:20 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# ** Error: (vsim-3173) Entity 'C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/simulation/modelsim/rtl_work.ledcontroller' has no architecture.
-# Load interrupted
-# Error loading design
-# End time: 18:53:20 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:54:07 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDController
-# -- Compiling architecture arc of LEDController
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(59): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(73): VHDL Compiler exiting
-# End time: 18:54:07 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:54:07 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:54:07 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# vsim work.ledcontrollertestbench 
-# Start time: 18:54:10 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# ** Error: (vsim-3173) Entity 'C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/simulation/modelsim/rtl_work.ledcontroller' has no architecture.
-# Load interrupted
-# Error loading design
-# End time: 18:54:10 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vsim work.ledcontroller
-# vsim work.ledcontroller 
-# Start time: 18:55:33 on Oct 11,2022
-# Loading std.standard
-# ** Error: (vsim-3173) Entity 'C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/simulation/modelsim/rtl_work.ledcontroller' has no architecture.
-# Error loading design
-# End time: 18:55:33 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:55:53 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDController
-# -- Compiling architecture arc of LEDController
-# End time: 18:55:53 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 19:29:27 on Oct 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:55:53 on Oct 11,2022
+# Start time: 19:29:28 on Oct 11,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -201,55 +682,27 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Loading package std_logic_arith
 # -- Compiling entity LEDControllerTestBench
 # -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:55:53 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:56:08 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDController
-# -- Compiling architecture arc of LEDController
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(59): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(73): VHDL Compiler exiting
-# End time: 18:56:08 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:56:08 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:56:08 on Oct 11,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:29:28 on Oct 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 6
 vsim work.ledcontrollertestbench
+# End time: 19:29:32 on Oct 11,2022, Elapsed time: 0:00:46
+# Errors: 3, Warnings: 7
 # vsim work.ledcontrollertestbench 
-# Start time: 18:56:11 on Oct 11,2022
+# Start time: 19:29:32 on Oct 11,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.ledcontrollertestbench(arc)
 # Loading work.ledcontroller(arc)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
 add wave -position end  sim:/ledcontrollertestbench/CLK
 add wave -position end  sim:/ledcontrollertestbench/LED1
 add wave -position end  sim:/ledcontrollertestbench/LED2
@@ -257,19 +710,106 @@ add wave -position end  sim:/ledcontrollertestbench/LED3
 add wave -position end  sim:/ledcontrollertestbench/RamAdress
 add wave -position end  sim:/ledcontrollertestbench/RamContents
 run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# ** Note: a
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Note: a
 #    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
+# ** Note: a
+#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
+# ** Note: a
+#    Time: 210 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 250 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 290 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
+# ** Note: a
+#    Time: 330 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 370 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
+# ** Note: a
+#    Time: 410 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 450 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 490 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
+# ** Note: a
+#    Time: 530 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 570 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
+# ** Note: a
+#    Time: 610 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 650 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 690 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+# ** Note: a
+#    Time: 730 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 770 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+# ** Note: a
+#    Time: 810 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 850 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: a
+#    Time: 890 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:30:27 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity I2CSlaveController
+# -- Compiling architecture arc of I2CSlaveController
+# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:30:27 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity I2CTestBench
+# -- Compiling architecture arc of I2CTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(12): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/Kodas1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:30:27 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/Kodas1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Kodas1
+# -- Compiling architecture behaviour1 of Kodas1
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/Kodas1.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:57:39 on Oct 11,2022
+# Start time: 19:30:27 on Oct 11,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -277,242 +817,11 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Loading package std_logic_arith
 # -- Compiling entity LEDController
 # -- Compiling architecture arc of LEDController
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(59): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(74): VHDL Compiler exiting
-# End time: 18:57:39 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:57:39 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:57:39 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# End time: 18:57:42 on Oct 11,2022, Elapsed time: 0:01:31
-# Errors: 2, Warnings: 8
-# vsim work.ledcontrollertestbench 
-# Start time: 18:57:42 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# Loading work.ledcontroller(arc)
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-run
-run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:58:06 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDController
-# -- Compiling architecture arc of LEDController
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(59): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(74): VHDL Compiler exiting
-# End time: 18:58:06 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:58:06 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:58:06 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# End time: 18:58:12 on Oct 11,2022, Elapsed time: 0:00:30
-# Errors: 2, Warnings: 8
-# vsim work.ledcontrollertestbench 
-# Start time: 18:58:12 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# Loading work.ledcontroller(arc)
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-run
-run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:11 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDController
-# -- Compiling architecture arc of LEDController
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(59): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(74): VHDL Compiler exiting
-# End time: 18:59:11 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:59:11 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:59:11 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# End time: 18:59:16 on Oct 11,2022, Elapsed time: 0:01:04
-# Errors: 2, Warnings: 8
-# vsim work.ledcontrollertestbench 
-# Start time: 18:59:16 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# Loading work.ledcontroller(arc)
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-run
-run
-run
-run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:02:07 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDController
-# -- Compiling architecture arc of LEDController
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(59): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(73): VHDL Compiler exiting
-# End time: 19:02:07 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:02:07 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:02:07 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# End time: 19:02:11 on Oct 11,2022, Elapsed time: 0:02:55
-# Errors: 2, Warnings: 8
-# vsim work.ledcontrollertestbench 
-# Start time: 19:02:11 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# Loading work.ledcontroller(arc)
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-run
-run
-run
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:04:15 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDController
-# -- Compiling architecture arc of LEDController
-# End time: 19:04:15 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:04:15 on Oct 11,2022
+# Start time: 19:30:27 on Oct 11,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -520,25 +829,39 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Loading package std_logic_arith
 # -- Compiling entity LEDControllerTestBench
 # -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:04:16 on Oct 11,2022, Elapsed time: 0:00:01
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 6
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:30:27 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture arch of RAM
+# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 vsim work.ledcontrollertestbench
-# End time: 19:04:22 on Oct 11,2022, Elapsed time: 0:02:11
-# Errors: 0, Warnings: 8
+# End time: 19:30:31 on Oct 11,2022, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 9
 # vsim work.ledcontrollertestbench 
-# Start time: 19:04:22 on Oct 11,2022
+# Start time: 19:30:31 on Oct 11,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.ledcontrollertestbench(arc)
 # Loading work.ledcontroller(arc)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
 add wave -position end  sim:/ledcontrollertestbench/CLK
 add wave -position end  sim:/ledcontrollertestbench/LED1
 add wave -position end  sim:/ledcontrollertestbench/LED2
@@ -546,16 +869,15 @@ add wave -position end  sim:/ledcontrollertestbench/LED3
 add wave -position end  sim:/ledcontrollertestbench/RamAdress
 add wave -position end  sim:/ledcontrollertestbench/RamContents
 run
-run
-run
-run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
 run
 run
 run
 run
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:05:35 on Oct 11,2022
+# Start time: 19:31:18 on Oct 11,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -563,11 +885,11 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Loading package std_logic_arith
 # -- Compiling entity LEDController
 # -- Compiling architecture arc of LEDController
-# End time: 19:05:35 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 19:31:18 on Oct 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:05:35 on Oct 11,2022
+# Start time: 19:31:18 on Oct 11,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -575,31 +897,231 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Loading package std_logic_arith
 # -- Compiling entity LEDControllerTestBench
 # -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:05:35 on Oct 11,2022, Elapsed time: 0:00:00
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:31:18 on Oct 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 6
 vsim work.ledcontrollertestbench
-# End time: 19:05:40 on Oct 11,2022, Elapsed time: 0:01:18
-# Errors: 0, Warnings: 6
+# End time: 19:31:21 on Oct 11,2022, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 7
 # vsim work.ledcontrollertestbench 
-# Start time: 19:05:40 on Oct 11,2022
+# Start time: 19:31:21 on Oct 11,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading work.ledcontrollertestbench(arc)
 # Loading work.ledcontroller(arc)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
 add wave -position end  sim:/ledcontrollertestbench/CLK
 add wave -position end  sim:/ledcontrollertestbench/LED1
 add wave -position end  sim:/ledcontrollertestbench/LED2
 add wave -position end  sim:/ledcontrollertestbench/LED3
 add wave -position end  sim:/ledcontrollertestbench/RamAdress
 add wave -position end  sim:/ledcontrollertestbench/RamContents
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Note: nuskaityta
+#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: nuskaityta
+#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+# ** Note: nuskaityta
+#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: nuskaityta
+#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: nuskaityta
+#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+# ** Note: nuskaityta
+#    Time: 230 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: nuskaityta
+#    Time: 270 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:32:53 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture arch of RAM
+# End time: 19:32:53 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ram
+# End time: 19:32:56 on Oct 11,2022, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 1
+# vsim work.ram 
+# Start time: 19:32:56 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+vsim work.ledcontrollertestbench
+# End time: 19:33:01 on Oct 11,2022, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim work.ledcontrollertestbench 
+# Start time: 19:33:01 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Note: nuskaityta
+#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: nuskaityta
+#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+# ** Note: nuskaityta
+#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: nuskaityta
+#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: nuskaityta
+#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+# ** Note: nuskaityta
+#    Time: 230 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: nuskaityta
+#    Time: 270 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+# ** Note: nuskaityta
+#    Time: 310 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: nuskaityta
+#    Time: 350 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: nuskaityta
+#    Time: 390 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:34:04 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 19:34:04 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 19:34:08 on Oct 11,2022, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 1
+# vsim work.ledcontrollertestbench 
+# Start time: 19:34:08 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 290 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 370 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 390 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:34:37 on Oct 11,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 19:34:37 on Oct 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 19:34:40 on Oct 11,2022, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 20
+# vsim work.ledcontrollertestbench 
+# Start time: 19:34:40 on Oct 11,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(arch)
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+# ** Note: nuskaityta
+#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
 run
 run
 run
