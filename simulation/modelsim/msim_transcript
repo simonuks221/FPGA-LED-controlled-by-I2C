@@ -1667,3 +1667,135 @@ run
 run
 run
 run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:53:47 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:53:47 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:54:05 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:54:05 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:54:10 on Oct 13,2022, Elapsed time: 0:04:02
+# Errors: 0, Warnings: 2
+# vsim work.ledcontrollertestbench 
+# Start time: 12:54:10 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading work.ram(arch)
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 320 ps  Iteration: 2  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 340 ps  Iteration: 2  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ps  Iteration: 2  Instance: /ledcontrollertestbench/RAM1
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:54:51 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(66): near "readRam": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(92): VHDL Compiler exiting
+# End time: 12:54:51 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:55:04 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(66): near "readRam": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(92): VHDL Compiler exiting
+# End time: 12:55:04 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:55:44 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:55:44 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:55:47 on Oct 13,2022, Elapsed time: 0:01:37
+# Errors: 4, Warnings: 5
+# vsim work.ledcontrollertestbench 
+# Start time: 12:55:47 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading work.ram(arch)
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 370 ps  Iteration: 2  Instance: /ledcontrollertestbench/RAM1
+run
+run
+run
+run

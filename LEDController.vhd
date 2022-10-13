@@ -48,7 +48,6 @@ begin
 			LED3 <= '0';
 		end if;
 		
-		
 		if CLKIndex = 10 then
 			CLKIndex <= 0;
 		else
@@ -64,6 +63,8 @@ begin
 	if rising_edge(CLK) and UpdateDataIRQ = '1' and readRam = '0' then
 		RamAdress <= std_logic_vector(to_unsigned(LedIndex, RamAdress'length));
 		readRam <= '1';
+	elsif readRam = '0' then
+		RamAdress <= (others => 'Z');
 	end if;
 	
 	if rising_edge(CLK) and readRam = '1' then
