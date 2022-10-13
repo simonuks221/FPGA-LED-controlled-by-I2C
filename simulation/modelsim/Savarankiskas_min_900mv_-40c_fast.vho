@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition"
 
--- DATE "10/11/2022 19:23:34"
+-- DATE "10/13/2022 12:02:33"
 
 -- 
 -- Device: Altera EP2AGX45CU17I3 Package UFBGA358

@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:18:41 on Oct 11,2022
+# Start time: 12:03:02 on Oct 13,2022
 # vcom -reportprogress 300 -93 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -20,757 +20,1220 @@
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 19:18:41 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 12:03:02 on Oct 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:03:11 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:03:11 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:18:47 on Oct 11,2022
+# Start time: 12:03:11 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
 # -- Compiling entity LEDControllerTestBench
 # -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of formal "ADDRESS_IN" is 9; length of actual is 4.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of formal "DATA_OUT" is 4; length of actual is 9.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(70): VHDL Compiler exiting
-# End time: 19:18:47 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 6
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 12:03:11 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
 vsim work.ledcontrollertestbench
 # vsim work.ledcontrollertestbench 
-# Start time: 19:18:56 on Oct 11,2022
-# Loading std.standard
-# ** Error: (vsim-3173) Entity 'C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/simulation/modelsim/rtl_work.ledcontrollertestbench' has no architecture.
-# Error loading design
-# End time: 19:18:56 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:20:37 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1272) Length of formal "ADDRESS_IN" is 9; length of actual is 4.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(48): (vcom-1272) Length of formal "DATA_OUT" is 4; length of actual is 9.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(74): VHDL Compiler exiting
-# End time: 19:20:37 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 6
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:21:11 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity RAM
-# -- Compiling architecture arch of RAM
-# End time: 19:21:12 on Oct 11,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:21:14 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1272) Length of formal "ADDRESS_IN" is 9; length of actual is 4.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(48): (vcom-1272) Length of formal "DATA_OUT" is 4; length of actual is 9.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(74): VHDL Compiler exiting
-# End time: 19:21:14 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 6
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:21:32 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity RAM
-# -- Compiling architecture arch of RAM
-# End time: 19:21:32 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:21:34 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(47): (vcom-1272) Length of formal "ADDRESS_IN" is 9; length of actual is 4.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(48): (vcom-1272) Length of formal "DATA_OUT" is 4; length of actual is 9.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(74): VHDL Compiler exiting
-# End time: 19:21:34 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 6
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:03 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(74): VHDL Compiler exiting
-# End time: 19:22:03 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 6
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:21 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity RAM
-# -- Compiling architecture arch of RAM
-# End time: 19:22:21 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:23 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Error (suppressible): C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(44): (vcom-1272) Length of expected is 9; length of actual is 8.
-# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(74): VHDL Compiler exiting
-# End time: 19:22:23 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 6
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:22:49 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:22:49 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# vsim work.ledcontrollertestbench 
-# Start time: 19:22:51 on Oct 11,2022
+# Start time: 12:03:14 on Oct 13,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
 # Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-# ** Fatal: (vsim-3742) In array aggregate at index 0, element array length 8 (8 downto 1) does not match length 9 (8 downto 0) of element subtype.
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd Line: 21
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 19:22:52 on Oct 11,2022, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 1
-vsim work.ledcontrollertestbench
-# vsim work.ledcontrollertestbench 
-# Start time: 19:22:54 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
 # Loading work.ledcontrollertestbench(arc)
-# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
 #    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-# ** Fatal: (vsim-3742) In array aggregate at index 0, element array length 8 (8 downto 1) does not match length 9 (8 downto 0) of element subtype.
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd Line: 21
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 19:22:54 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:23:39 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity RAM
-# -- Compiling architecture arch of RAM
-# End time: 19:23:39 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:23:41 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:23:41 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# vsim work.ledcontrollertestbench 
-# Start time: 19:23:43 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-# ** Fatal: (vsim-3714) At array depth 1, array lengths do not match. Left is 17 (0 to 16). Right is 3 (0 to 2).
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd Line: 21
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 19:23:44 on Oct 11,2022, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:24:20 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity RAM
-# -- Compiling architecture arch of RAM
-# End time: 19:24:20 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:24:21 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:24:21 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# vsim work.ledcontrollertestbench 
-# Start time: 19:24:24 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
 add wave -position end  sim:/ledcontrollertestbench/CLK
 add wave -position end  sim:/ledcontrollertestbench/LED1
 add wave -position end  sim:/ledcontrollertestbench/LED2
 add wave -position end  sim:/ledcontrollertestbench/LED3
 add wave -position end  sim:/ledcontrollertestbench/RamAdress
 add wave -position end  sim:/ledcontrollertestbench/RamContents
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 210 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 230 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 270 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 290 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 310 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 330 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 350 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 370 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 390 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 410 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 430 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 450 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 470 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 490 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 510 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 530 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 550 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 570 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 590 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-vsim work.ledcontrollertestbench
-# End time: 19:25:49 on Oct 11,2022, Elapsed time: 0:01:25
-# Errors: 0, Warnings: 31
-# vsim work.ledcontrollertestbench 
-# Start time: 19:25:49 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 210 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 230 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 270 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 290 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 310 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 330 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 350 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 370 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 390 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:27:17 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:27:17 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# End time: 19:27:21 on Oct 11,2022, Elapsed time: 0:01:32
-# Errors: 0, Warnings: 27
-# vsim work.ledcontrollertestbench 
-# Start time: 19:27:21 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# ** Warning: (vsim-3473) Component instance "LEDController1 : LEDController" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
 run
 run
 run
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:28:00 on Oct 11,2022
+# Start time: 12:03:42 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
 # -- Compiling entity LEDController
 # -- Compiling architecture arc of LEDController
-# End time: 19:28:00 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 12:03:42 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:03:46 on Oct 13,2022, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:03:46 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:04:12 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:04:12 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:04:15 on Oct 13,2022, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:04:15 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:04:34 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:04:34 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:04:38 on Oct 13,2022, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 2
+# vsim work.ledcontrollertestbench 
+# Start time: 12:04:38 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:05:29 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:05:30 on Oct 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:05:33 on Oct 13,2022, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 2
+# vsim work.ledcontrollertestbench 
+# Start time: 12:05:33 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:05:52 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:05:52 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:05:55 on Oct 13,2022, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 2
+# vsim work.ledcontrollertestbench 
+# Start time: 12:05:55 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:06:37 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:06:37 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:08:36 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:08:36 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:08:40 on Oct 13,2022, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 2
+# vsim work.ledcontrollertestbench 
+# Start time: 12:08:40 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:09:21 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:09:21 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:09:25 on Oct 13,2022, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1
+# vsim work.ledcontrollertestbench 
+# Start time: 12:09:25 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:09:41 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:09:41 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:09:44 on Oct 13,2022, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+# vsim work.ledcontrollertestbench 
+# Start time: 12:09:44 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:16 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:10:16 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:10:19 on Oct 13,2022, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 1
+# vsim work.ledcontrollertestbench 
+# Start time: 12:10:19 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:18 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(18): Nonresolved signal 'LedIndex' has multiple sources.
+#   Drivers:
+#     C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(65):Process line__65
+#        Driven at:
+#           C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(68)
+#     C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(42):Process line__42
+#        Driven at:
+#           C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(60)
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(93): VHDL Compiler exiting
+# End time: 12:12:18 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:15:12 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:15:12 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:15:15 on Oct 13,2022, Elapsed time: 0:04:56
+# Errors: 2, Warnings: 1
+# vsim work.ledcontrollertestbench 
+# Start time: 12:15:15 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:16:05 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:16:05 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:16:09 on Oct 13,2022, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 1
+# vsim work.ledcontrollertestbench 
+# Start time: 12:16:09 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:16:29 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:16:29 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:16:33 on Oct 13,2022, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:16:33 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:17 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(71): Cannot read output "LED1".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(96): VHDL Compiler exiting
+# End time: 12:17:17 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:55 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:17:55 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:17:59 on Oct 13,2022, Elapsed time: 0:01:26
+# Errors: 2, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:17:59 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:18:24 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:18:24 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:18:28 on Oct 13,2022, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:18:28 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:22:18 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:22:18 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:22:22 on Oct 13,2022, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:22:22 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:23:10 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:23:10 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:23:14 on Oct 13,2022, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:23:14 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:23:50 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:23:50 on Oct 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:28:02 on Oct 11,2022
+# Start time: 12:23:50 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
 # -- Compiling entity LEDControllerTestBench
 # -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 12:23:50 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+vsim work.ledcontrollertestbench
+# End time: 12:23:54 on Oct 13,2022, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 6
+# vsim work.ledcontrollertestbench 
+# Start time: 12:23:54 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:24:21 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:28:02 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
+# End time: 12:24:21 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
 vsim work.ledcontrollertestbench
-# End time: 19:28:06 on Oct 11,2022, Elapsed time: 0:00:45
+# End time: 12:24:25 on Oct 13,2022, Elapsed time: 0:00:31
 # Errors: 0, Warnings: 7
 # vsim work.ledcontrollertestbench 
-# Start time: 19:28:06 on Oct 11,2022
+# Start time: 12:24:25 on Oct 13,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
 # Loading work.ledcontrollertestbench(arc)
 # Loading work.ledcontroller(arc)
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
 add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
 run
-# ** Note: a
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+run
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:28:41 on Oct 11,2022
+# Start time: 12:24:44 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
 # -- Compiling entity LEDControllerTestBench
 # -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:28:41 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
+# End time: 12:24:44 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
 vsim work.ledcontrollertestbench
-# End time: 19:28:46 on Oct 11,2022, Elapsed time: 0:00:40
-# Errors: 0, Warnings: 16
+# End time: 12:24:47 on Oct 13,2022, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 7
 # vsim work.ledcontrollertestbench 
-# Start time: 19:28:46 on Oct 11,2022
+# Start time: 12:24:47 on Oct 13,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
 # Loading work.ledcontrollertestbench(arc)
 # Loading work.ledcontroller(arc)
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
 add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/CLK
 run
-# ** Note: a
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/LEDController1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Note: a
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
-# ** Fatal: (vsim-3734) Index value 3 is out of range 0 to 2.
-#    Time: 110 ps  Iteration: 1  Process: /ledcontrollertestbench/RAM1/line__24 File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
-# Fatal error in Process line__24 at C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd line 31
-# 
-# HDL call sequence:
-# Stopped at C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 31 Process line__24
-# 
 run
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 31 Process line__24
-# 
+run
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:29:27 on Oct 11,2022
+# Start time: 12:26:20 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
 # -- Compiling entity LEDController
 # -- Compiling architecture arc of LEDController
-# End time: 19:29:27 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 12:26:20 on Oct 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:29:28 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDControllerTestBench
-# -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:29:28 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
 vsim work.ledcontrollertestbench
-# End time: 19:29:32 on Oct 11,2022, Elapsed time: 0:00:46
-# Errors: 3, Warnings: 7
+# End time: 12:26:23 on Oct 13,2022, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 3
 # vsim work.ledcontrollertestbench 
-# Start time: 19:29:32 on Oct 11,2022
+# Start time: 12:26:23 on Oct 13,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
 # Loading work.ledcontrollertestbench(arc)
 # Loading work.ledcontroller(arc)
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
 add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
 add wave -position end  sim:/ledcontrollertestbench/LED1
 add wave -position end  sim:/ledcontrollertestbench/LED2
 add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:27:13 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(77): (vcom-1395) Type conversion (to STD_LOGIC_VECTOR) cannot have named association operand.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(105): VHDL Compiler exiting
+# End time: 12:27:13 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:27:25 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(77): near "others": syntax error
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(105): VHDL Compiler exiting
+# End time: 12:27:25 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:27:59 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:27:59 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:28:03 on Oct 13,2022, Elapsed time: 0:01:40
+# Errors: 4, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:28:03 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:28:10 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:28:10 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:28:14 on Oct 13,2022, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:28:14 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/CLK
 add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
 run
-# ** Note: a
-#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/LEDController1
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:44 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:29:45 on Oct 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:29:49 on Oct 13,2022, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:29:49 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED2 has no driver.
+# This port will contribute value (U) to the signal network.
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:31:21 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(82): (vcom-1339) Case statement choices cover only 2 out of 4294967296 cases.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(111): VHDL Compiler exiting
+# End time: 12:31:22 on Oct 13,2022, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:31:44 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:31:44 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:31:50 on Oct 13,2022, Elapsed time: 0:02:01
+# Errors: 2, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:31:50 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+run
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:48 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(93): near "if": (vcom-1576) expecting PROCESS.
+# End time: 12:34:48 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:35:11 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:35:11 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:35:14 on Oct 13,2022, Elapsed time: 0:03:24
+# Errors: 1, Warnings: 1
+# vsim work.ledcontrollertestbench 
+# Start time: 12:35:14 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+run
+run
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Note: a
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-# ** Note: a
 #    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
+# ** Note: 0
+#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:14 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:36:14 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:36:18 on Oct 13,2022, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:36:18 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: Pirmas 0
+#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: Antras 0
+#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: Trecias 0
 #    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
-# ** Note: a
-#    Time: 210 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 250 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 290 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:14 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:37:14 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:37:17 on Oct 13,2022, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 5
+# vsim work.ledcontrollertestbench 
+# Start time: 12:37:17 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# ** Warning: (vsim-3473) Component instance "RAM1 : RAM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench File: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
 run
-# ** Note: a
-#    Time: 330 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 370 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
-# ** Note: a
-#    Time: 410 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 450 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 490 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
-# ** Note: a
-#    Time: 530 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 570 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 run
-# ** Note: a
-#    Time: 610 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 650 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 690 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-# ** Note: a
-#    Time: 730 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 770 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-# ** Note: a
-#    Time: 810 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 850 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: a
-#    Time: 890 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:30:27 on Oct 11,2022
+# Start time: 12:38:44 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -778,11 +1241,11 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Loading package std_logic_arith
 # -- Compiling entity I2CSlaveController
 # -- Compiling architecture arc of I2CSlaveController
-# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 12:38:44 on Oct 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:30:27 on Oct 11,2022
+# Start time: 12:38:44 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -791,11 +1254,11 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Compiling entity I2CTestBench
 # -- Compiling architecture arc of I2CTestBench
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CTestBench.vhd(12): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 12:38:44 on Oct 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/Kodas1.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:30:27 on Oct 11,2022
+# Start time: 12:38:44 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/Kodas1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -805,41 +1268,39 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Compiling entity Kodas1
 # -- Compiling architecture behaviour1 of Kodas1
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/Kodas1.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 12:38:44 on Oct 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:30:27 on Oct 11,2022
+# Start time: 12:38:44 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
 # -- Compiling entity LEDController
 # -- Compiling architecture arc of LEDController
-# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 12:38:44 on Oct 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:30:27 on Oct 11,2022
+# Start time: 12:38:44 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
 # -- Compiling entity LEDControllerTestBench
 # -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
+# End time: 12:38:44 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:30:27 on Oct 11,2022
+# Start time: 12:38:44 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -847,105 +1308,325 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Loading package NUMERIC_STD
 # -- Compiling entity RAM
 # -- Compiling architecture arch of RAM
-# End time: 19:30:27 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 12:38:44 on Oct 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.ledcontrollertestbench
-# End time: 19:30:31 on Oct 11,2022, Elapsed time: 0:00:59
-# Errors: 0, Warnings: 9
+# End time: 12:38:47 on Oct 13,2022, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 8
 # vsim work.ledcontrollertestbench 
-# Start time: 19:30:31 on Oct 11,2022
+# Start time: 12:38:47 on Oct 13,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
 # Loading work.ledcontrollertestbench(arc)
 # Loading work.ledcontroller(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.ram(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+vsim work.ledcontrollertestbench
+# End time: 12:38:54 on Oct 13,2022, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 1
+# vsim work.ledcontrollertestbench 
+# Start time: 12:38:54 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading work.ram(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
 add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
 add wave -position end  sim:/ledcontrollertestbench/LED1
 add wave -position end  sim:/ledcontrollertestbench/LED2
 add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
 run
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ps  Iteration: 2  Instance: /ledcontrollertestbench/RAM1
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:39:19 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:39:19 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:39:23 on Oct 13,2022, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:39:23 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading work.ram(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Note: Pirmas 3
+#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: Antras 4
+#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Note: Trecias 5
+#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ps  Iteration: 2  Instance: /ledcontrollertestbench/RAM1
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:44:40 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:44:41 on Oct 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:39 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(40): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(42): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(48): Illegal sequential statement.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(117): near "architecture": (vcom-1576) expecting PROCESS.
+# End time: 12:46:39 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:52 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(48): Illegal sequential statement.
+# ** Error: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd(117): near "architecture": (vcom-1576) expecting PROCESS.
+# End time: 12:46:52 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:07 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:47:07 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:47:10 on Oct 13,2022, Elapsed time: 0:07:47
+# Errors: 6, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:47:10 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading work.ram(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ps  Iteration: 2  Instance: /ledcontrollertestbench/RAM1
+run
+run
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:39 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:47:39 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.ledcontrollertestbench
+# End time: 12:47:42 on Oct 13,2022, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 3
+# vsim work.ledcontrollertestbench 
+# Start time: 12:47:42 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading work.ram(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /ledcontrollertestbench/LEDController1/LED3 has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ps  Iteration: 2  Instance: /ledcontrollertestbench/RAM1
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:07 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDController
+# -- Compiling architecture arc of LEDController
+# End time: 12:49:07 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:07 on Oct 13,2022
+# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LEDControllerTestBench
+# -- Compiling architecture arc of LEDControllerTestBench
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 12:49:07 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+vsim work.ledcontrollertestbench
+# End time: 12:49:11 on Oct 13,2022, Elapsed time: 0:01:29
+# Errors: 1, Warnings: 8
+# vsim work.ledcontrollertestbench 
+# Start time: 12:49:11 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading work.ram(arch)
+vsim work.ledcontrollertestbench
+# End time: 12:49:21 on Oct 13,2022, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+# vsim work.ledcontrollertestbench 
+# Start time: 12:49:21 on Oct 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ledcontrollertestbench(arc)
+# Loading work.ledcontroller(arc)
+# Loading work.ram(arch)
+add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
+add wave -position end  sim:/ledcontrollertestbench/LED1
+add wave -position end  sim:/ledcontrollertestbench/LED2
+add wave -position end  sim:/ledcontrollertestbench/LED3
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 370 ps  Iteration: 2  Instance: /ledcontrollertestbench/RAM1
 run
 run
 run
 run
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:31:18 on Oct 11,2022
+# Start time: 12:50:05 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
 # -- Compiling entity LEDController
 # -- Compiling architecture arc of LEDController
-# End time: 19:31:18 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 12:50:05 on Oct 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:31:18 on Oct 11,2022
+# Start time: 12:50:05 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
 # -- Compiling entity LEDControllerTestBench
 # -- Compiling architecture arc of LEDControllerTestBench
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:31:18 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 6
-vsim work.ledcontrollertestbench
-# End time: 19:31:21 on Oct 11,2022, Elapsed time: 0:00:50
-# Errors: 0, Warnings: 7
-# vsim work.ledcontrollertestbench 
-# Start time: 19:31:21 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# Loading work.ledcontroller(arc)
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Note: nuskaityta
-#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: nuskaityta
-#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-# ** Note: nuskaityta
-#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: nuskaityta
-#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: nuskaityta
-#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-# ** Note: nuskaityta
-#    Time: 230 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: nuskaityta
-#    Time: 270 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+# End time: 12:50:05 on Oct 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
 vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:32:53 on Oct 11,2022
+# Start time: 12:50:05 on Oct 13,2022
 # vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -953,179 +1634,35 @@ vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/Savarankiska
 # -- Loading package NUMERIC_STD
 # -- Compiling entity RAM
 # -- Compiling architecture arch of RAM
-# End time: 19:32:53 on Oct 11,2022, Elapsed time: 0:00:00
+# End time: 12:50:05 on Oct 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.ram
-# End time: 19:32:56 on Oct 11,2022, Elapsed time: 0:01:35
-# Errors: 0, Warnings: 1
-# vsim work.ram 
-# Start time: 19:32:56 on Oct 11,2022
+vsim work.ledcontrollertestbench
+# End time: 12:50:08 on Oct 13,2022, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 6
+# vsim work.ledcontrollertestbench 
+# Start time: 12:50:08 on Oct 13,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-vsim work.ledcontrollertestbench
-# End time: 19:33:01 on Oct 11,2022, Elapsed time: 0:00:05
-# Errors: 0, Warnings: 0
-# vsim work.ledcontrollertestbench 
-# Start time: 19:33:01 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
 # Loading work.ledcontrollertestbench(arc)
 # Loading work.ledcontroller(arc)
-# Loading ieee.numeric_std(body)
 # Loading work.ram(arch)
 add wave -position end  sim:/ledcontrollertestbench/CLK
+add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/RamAdress
 add wave -position end  sim:/ledcontrollertestbench/LED1
 add wave -position end  sim:/ledcontrollertestbench/LED2
 add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
+add wave -position end  sim:/ledcontrollertestbench/UpdateDataIRQ
 run
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Note: nuskaityta
-#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: nuskaityta
-#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-# ** Note: nuskaityta
-#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: nuskaityta
-#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: nuskaityta
-#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-# ** Note: nuskaityta
-#    Time: 230 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: nuskaityta
-#    Time: 270 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-run
-# ** Note: nuskaityta
-#    Time: 310 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: nuskaityta
-#    Time: 350 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-# ** Note: nuskaityta
-#    Time: 390 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:34:04 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDController
-# -- Compiling architecture arc of LEDController
-# End time: 19:34:04 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.ledcontrollertestbench
-# End time: 19:34:08 on Oct 11,2022, Elapsed time: 0:01:07
-# Errors: 0, Warnings: 1
-# vsim work.ledcontrollertestbench 
-# Start time: 19:34:08 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# Loading work.ledcontroller(arc)
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 70 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 90 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 110 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 130 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 170 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 190 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 210 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 230 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 270 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 290 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 310 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 330 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 350 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 370 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 390 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:34:37 on Oct 11,2022
-# vcom -reportprogress 300 -work work C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity LEDController
-# -- Compiling architecture arc of LEDController
-# End time: 19:34:37 on Oct 11,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.ledcontrollertestbench
-# End time: 19:34:40 on Oct 11,2022, Elapsed time: 0:00:32
-# Errors: 0, Warnings: 20
-# vsim work.ledcontrollertestbench 
-# Start time: 19:34:40 on Oct 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ledcontrollertestbench(arc)
-# Loading work.ledcontroller(arc)
-# Loading ieee.numeric_std(body)
-# Loading work.ram(arch)
-add wave -position end  sim:/ledcontrollertestbench/CLK
-add wave -position end  sim:/ledcontrollertestbench/LED1
-add wave -position end  sim:/ledcontrollertestbench/LED2
-add wave -position end  sim:/ledcontrollertestbench/LED3
-add wave -position end  sim:/ledcontrollertestbench/RamAdress
-add wave -position end  sim:/ledcontrollertestbench/RamContents
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 10 ps  Iteration: 1  Instance: /ledcontrollertestbench/RAM1
-# ** Note: nuskaityta
-#    Time: 30 ps  Iteration: 1  Instance: /ledcontrollertestbench/LEDController1
+#    Time: 0 ps  Iteration: 0  Instance: /ledcontrollertestbench/RAM1
 run
 run
 run
-run
-run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 370 ps  Iteration: 2  Instance: /ledcontrollertestbench/RAM1
 run
 run
 run

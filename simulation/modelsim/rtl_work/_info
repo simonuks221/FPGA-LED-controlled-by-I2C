@@ -22,9 +22,9 @@ VbH3;fJA<KgF=<^2PfB61]0
 !s100 2@_]mEeJFI8XD4IT6hnVo0
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1665505827
+Z8 !s110 1665653924
 !i10b 1
-Z9 !s108 1665505827.000000
+Z9 !s108 1665653924.000000
 Z10 !s90 -reportprogress|300|-work|work|C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd|
 Z11 !s107 C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/I2CSlaveController.vhd|
 !i113 1
@@ -134,8 +134,8 @@ R24
 R12
 R13
 Eledcontroller
-Z25 w1665506070
-R2
+Z25 w1665654600
+R20
 R3
 R4
 R0
@@ -143,27 +143,27 @@ Z26 8C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I
 Z27 FC:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd
 l0
 L5
-VnR=D=B>JICU:f9z?1KJ2j2
-!s100 7aFj;aZ0iJ:AN1mzLN5jG3
+V3?eY9I?6Y:VQCCWCbYkG21
+!s100 HgL@jW7Mo4@Pn2P^I?Mlf1
 R7
 32
-Z28 !s110 1665506077
+Z28 !s110 1665654605
 !i10b 1
-Z29 !s108 1665506077.000000
+Z29 !s108 1665654605.000000
 Z30 !s90 -reportprogress|300|-work|work|C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd|
 Z31 !s107 C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDController.vhd|
 !i113 1
 R12
 R13
 Aarc
-R2
+R20
 R3
 R4
-Z32 DEx4 work 13 ledcontroller 0 22 nR=D=B>JICU:f9z?1KJ2j2
-l23
-L16
-V_VoXdXATXQE?2fnBDGkV[3
-!s100 4h:3:G@CC>YSkidR@kX^R3
+DEx4 work 13 ledcontroller 0 22 3?eY9I?6Y:VQCCWCbYkG21
+l25
+L17
+VG_Dzz8C1kn<<nzc>nT;hg1
+!s100 e@8f?ZGl=]9M`U2i?C@f<2
 R7
 32
 R28
@@ -175,65 +175,65 @@ R31
 R12
 R13
 Eledcontrollertestbench
-Z33 w1665505714
-R2
-R3
-R4
-R0
-Z34 8C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-Z35 FC:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
-l0
-L5
-V>9X1IK:O38fZMGWXSgDin1
-!s100 16JMh1i1aUeRl29XRnXQ33
-R7
-32
-Z36 !s110 1665505878
-!i10b 1
-Z37 !s108 1665505878.000000
-Z38 !s90 -reportprogress|300|-work|work|C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd|
-Z39 !s107 C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd|
-!i113 1
-R12
-R13
-Aarc
-R2
-R3
-R4
-DEx4 work 22 ledcontrollertestbench 0 22 >9X1IK:O38fZMGWXSgDin1
-l39
-L8
-VMjnnDVbg9W^GXIhHcnN[i3
-!s100 7EQg9W?^h=YRAVcIgaTMD3
-R7
-32
-R36
-!i10b 1
-R37
-R38
-R39
-!i113 1
-R12
-R13
-Eram
-Z40 w1665505964
+Z32 w1665654543
 R20
 R3
 R4
 R0
-Z41 8C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
-Z42 FC:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
+Z33 8C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+Z34 FC:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd
+l0
+L5
+V@@<]e`:zWmn^PkO_8W74R0
+!s100 KHf?B02onW?jj>OUz7fEK1
+R7
+32
+R28
+!i10b 1
+R29
+Z35 !s90 -reportprogress|300|-work|work|C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd|
+Z36 !s107 C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/LEDControllerTestBench.vhd|
+!i113 1
+R12
+R13
+Aarc
+R20
+R3
+R4
+DEx4 work 22 ledcontrollertestbench 0 22 @@<]e`:zWmn^PkO_8W74R0
+l41
+L8
+VlMK:[648MD4BYEM7hZln=1
+!s100 1Mdm]>Se34XiL>[;1bIZA3
+R7
+32
+R28
+!i10b 1
+R29
+R35
+R36
+!i113 1
+R12
+R13
+Eram
+Z37 w1665650673
+R20
+R3
+R4
+R0
+Z38 8C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
+Z39 FC:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd
 l0
 L5
 Vjk2dB>OOM0eBWEfI`Zb000
 !s100 PZM>bBfBZkHHB^AaY`8e22
 R7
 32
-Z43 !s110 1665505973
+R28
 !i10b 1
-Z44 !s108 1665505973.000000
-Z45 !s90 -reportprogress|300|-work|work|C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd|
-Z46 !s107 C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd|
+R29
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd|
+Z41 !s107 C:/Users/simon/Desktop/UNI/VHDL/SavarankiskasKodas/FPGA-LED-controlled-by-I2C/RAM.vhd|
 !i113 1
 R12
 R13
@@ -241,18 +241,18 @@ Aarch
 R20
 R3
 R4
-DEx4 work 3 ram 0 22 jk2dB>OOM0eBWEfI`Zb000
+Z42 DEx4 work 3 ram 0 22 jk2dB>OOM0eBWEfI`Zb000
 l22
 L19
-V9Bji=moU>KSK@O@NKNO<R3
-!s100 ZABY7cZ^1Eh8O0Aob<c9T2
+Z43 V;bK6c@_KK;0bH@bShPhBH0
+Z44 !s100 VJ64fB=6dOcYSmDP[FB8C1
 R7
 32
-R43
+R28
 !i10b 1
-R44
-R45
-R46
+R29
+R40
+R41
 !i113 1
 R12
 R13

@@ -1,6 +1,6 @@
 Library IEEE;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
+USE ieee.numeric_std.ALL;
 
 entity LEDController is
 port(
@@ -9,7 +9,8 @@ RamContents: in std_logic_vector(8 downto 0);
 RamAdress: out std_logic_vector(3 downto 0);
 LED1: out std_logic;
 LED2: out std_logic;
-LED3: out std_logic
+LED3: out std_logic;
+UpdateDataIRQ: in std_logic
 );
 end entity;
 
@@ -18,17 +19,17 @@ signal LedIndex: integer := 0;
 type t_LedBrightness is array(0 to 2) of integer;
 signal LedBrightness: t_LedBrightness := (1,1,1);
 signal CLKIndex :integer:= 0;
+signal readRam : std_logic := '0';
 
 constant LEDPeriod : integer := 10;
 begin
 
+--process 
+
 --Generate LED brightness
 process(CLK)
 begin
-	--RamAdress <= conv_std_logic_vector(LedIndex, RamAdress'length);
-	--LedIndex <= LedIndex + 1;
-	--wait until CLK = '1';
-	if CLK'event and CLK = '1' then
+	if rising_edge(CLK) then
 		if CLKIndex < LedBrightness(0) then
 			LED1 <= '1';
 		else
@@ -47,31 +48,44 @@ begin
 			LED3 <= '0';
 		end if;
 		
-		if CLKIndex = LEDPeriod - 1 then
+		
+		if CLKIndex = 10 then
 			CLKIndex <= 0;
 		else
-		CLKIndex <= CLKIndex + 1;
+			CLKIndex <= CLKIndex + 1;
 		end if;
 	end if;
+		
 end process;
-
---Get LED brightness
-process
+		
+--Update brightness
+process(CLK, UpdateDataIRQ)
 begin
-	if CLK'event and CLK = '1' then
-		RamAdress <= conv_std_logic_vector(LedIndex, RamAdress'length);
-		wait until CLK'event and CLK = '1';
-		report "nuskaityta";
-		LEdBrightness(LedIndex) <= conv_integer(unsigned(RamContents));
-		if LedIndex = 2 then
-			LedIndex <= 0;
-		else
-			LedIndex <= LedIndex + 1;
-		end if;
-		wait;
+	if rising_edge(CLK) and UpdateDataIRQ = '1' and readRam = '0' then
+		RamAdress <= std_logic_vector(to_unsigned(LedIndex, RamAdress'length));
+		readRam <= '1';
 	end if;
 	
-	wait until CLK'event and CLK = '1';
+	if rising_edge(CLK) and readRam = '1' then
+		case LEDIndex is
+				when 0 => 
+					LEDIndex <= LEDIndex + 1;
+					RamAdress <= std_logic_vector(to_unsigned(LedIndex + 1, RamAdress'length));
+					readRam <= '1';
+					LedBrightness(0) <= to_integer(unsigned(RamContents));
+				when 1 => 
+					LEDIndex <= LEDIndex + 1;
+					RamAdress <= std_logic_vector(to_unsigned(LedIndex + 1, RamAdress'length));
+					readRam <= '1';
+					LedBrightness(1) <= to_integer(unsigned(RamContents));
+				when others =>
+					LEDIndex <= 0;
+					readRam <= '0';
+					RamAdress <= (others => 'Z');
+					LedBrightness(2) <= to_integer(unsigned(RamContents));
+					
+		end case;		
+	end if;
 end process;
 
 end architecture;

@@ -1,6 +1,6 @@
-	Library IEEE;
+Library IEEE;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
+USE ieee.numeric_std.ALL;
 
 entity LEDControllerTestBench is
 end entity;
@@ -13,6 +13,7 @@ signal RamAdress: std_logic_vector(3 downto 0);
 signal LED1: std_logic;
 signal LED2: std_logic;
 signal LED3: std_logic;
+signal UpdateDataIRQ: std_logic;
 
 
 component LEDController
@@ -22,7 +23,8 @@ RamContents: in std_logic_vector(8 downto 0);
 RamAdress: out std_logic_vector(3 downto 0);
 LED1: out std_logic;
 LED2: out std_logic;
-LED3: out std_logic
+LED3: out std_logic;
+UpdateDataIRQ: in std_logic
 );
 end component;
 
@@ -39,7 +41,7 @@ end component;
 begin
 
 LEDController1: LEDController port map(
-CLK =>CLK, RamContents => RamContents, RamAdress => RamAdress, LED1 => LED1, LED2 => LED2, LED3 => LED3);
+CLK =>CLK, RamContents => RamContents, RamAdress => RamAdress, LED1 => LED1, LED2 => LED2, LED3 => LED3, UpdateDataIRQ => UpdateDataIRQ);
 
 RAM1: RAM port map(DATA_IN => "000000000", 
 DATA_WRITE => '0', 
@@ -55,19 +57,16 @@ begin
 	wait for 10ps;
 	CLK <= '1';
 	wait for 10ps;
-end process;
+end process;	
 
 process
 begin
-	wait for 10ps;
-	for index in 0 to 10 loop
-		--RamContents <= conv_std_logic_vector(5, RamContents'length);
-		wait for 40ps;
-		--RamContents <= conv_std_logic_vector(4, RamContents'length);
-		wait for 40ps;
-		--RamContents <= conv_std_logic_vector(3, RamContents'length);
-		wait for 40ps;
-	end loop;
+	UpdateDataIRQ <= '0';
+	wait for 300ps;
+	UpdateDataIRQ <= '1';
+	wait for 20ps;
+	UpdateDataIRQ <= '0';
+	wait;
 end process;
 
 

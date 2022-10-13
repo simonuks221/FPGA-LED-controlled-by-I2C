@@ -23,15 +23,16 @@ begin
 
 process(CLK)
 	begin
-	if CLK'event and CLK = '1' then
+	if rising_edge(CLK) then
 		if DATA_WRITE = '1' then
 			RAM(to_integer(unsigned(ADDRESS_IN))) <= DATA_IN;
-			DATA_OUT <= (others => '0');
-		else
-			DATA_OUT <= RAM(to_integer(unsigned(ADDRESS_IN)));
+			--DATA_OUT <= (others => '0');
 		end if;
+		--report "Ramai at 0" & integer'image(to_integer(unsigned(RAM(to_integer(unsigned(ADDRESS_IN))))));
 	end if;
-	end process;
+end process;
+	
+DATA_OUT <= RAM(to_integer(unsigned(ADDRESS_IN)));
 	
 
 end architecture;
